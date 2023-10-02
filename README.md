@@ -1,3 +1,3 @@
 # TalesOfSurvivors
-Project_MidSession
+Project_Midterm
 Rémi Lavallée
