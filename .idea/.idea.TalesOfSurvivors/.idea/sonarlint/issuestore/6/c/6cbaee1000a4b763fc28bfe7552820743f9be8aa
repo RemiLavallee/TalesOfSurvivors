@@ -1,0 +1,7 @@
+
+Jcsharpsquid:S3903"(Move 'Inventory' into a named namespace.(§Õ¦åúÿÿÿÿ
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ìÔè±8ëì•±1
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(«±ûÿÿÿÿ8õô—±1
+gcsharpsquid:S1104	"DMake this field 'private' and encapsulate it in a 'public' property.(Ç™N8·ºÎ±1
+ncsharpsquid:S2223"EChange the visibility of 'instance' or make it 'const' or 'readonly'.(«±ûÿÿÿÿ8õô—±1
+~csharpsquid:S2696"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(ñõîÙşÿÿÿÿ8õô—±1
