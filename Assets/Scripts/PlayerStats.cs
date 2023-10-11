@@ -20,6 +20,7 @@ public class PlayerStats : MonoBehaviour
     private int def;
     private int health;
     private int magnet;
+    [SerializeField] private AudioSource attackSound;
 
     [System.Serializable]
     public class LevelRange
@@ -98,6 +99,7 @@ public class PlayerStats : MonoBehaviour
 
     private void MainAttack()
     {
+        attackSound.Play();
         var mainAttack = Instantiate(mainAttackPrefab, transform.position, Quaternion.identity);
         mainAttack.transform.right = player.directionToMouse;
         

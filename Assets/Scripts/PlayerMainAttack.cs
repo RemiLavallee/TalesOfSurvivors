@@ -5,7 +5,6 @@ public class PlayerMainAttack : MonoBehaviour
     public SkillScriptableObject skillData;
     [SerializeField] private float destroyDelay;
     private float currentDamage;
-    public PlayerStats stats;
 
     private void Awake()
     {

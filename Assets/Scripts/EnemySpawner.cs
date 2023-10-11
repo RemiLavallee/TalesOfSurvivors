@@ -28,6 +28,8 @@ public class EnemySpawner : MonoBehaviour
     public List<Wave> waves;
     public int currentWaveCount;
     private Transform player;
+    public string lastWaveName;
+    public bool isLastWaveCompleted = false;
     
     [Header("Spawn Attributes")]
     private float spawnTimer;
@@ -57,6 +59,11 @@ public class EnemySpawner : MonoBehaviour
          {
              spawnTimer = 0f;
              SpawnEnemies();
+         }
+         
+         if (enemiesAlive == -1 && waves[currentWaveCount].waveName == lastWaveName)
+         {
+             isLastWaveCompleted = true;
          }
      }
 
@@ -96,7 +103,7 @@ public class EnemySpawner : MonoBehaviour
                         maxEnemiesReached = true;
                         return;
                     }
-
+                    
                     Instantiate(enemyGroup.enemyPrefab,
                         player.position + relativeSpawnPoints[Random.Range(0, relativeSpawnPoints.Count)].position,
                         Quaternion.identity);

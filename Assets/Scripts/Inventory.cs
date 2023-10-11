@@ -6,7 +6,7 @@ public class Inventory : MonoBehaviour
 {
     public int coinsCount;
     public static Inventory instance;
-    public TextMeshProUGUI coinsCountText;
+    public TextMeshProUGUI[] coinsCountText;
 
     private void Awake()
     {
@@ -16,6 +16,20 @@ public class Inventory : MonoBehaviour
     public void AddCoins(int count)
     {
         coinsCount += count;
-        coinsCountText.text = coinsCount.ToString();
+        UpdateTextUi();
+    }
+    
+    public void RemoveCoins(int count)
+    {
+        coinsCount -= count;
+        UpdateTextUi();
+    }
+
+    public void UpdateTextUi()
+    {
+        for (var i = 0; i < coinsCountText.Length; i++)
+        {
+            coinsCountText[i].text = coinsCount.ToString();
+        }
     }
 }

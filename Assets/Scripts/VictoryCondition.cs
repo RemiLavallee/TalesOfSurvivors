@@ -9,13 +9,14 @@ public class VictoryCondition : MonoBehaviour
 
     public void Update()
     {
-        if (enemy.enemiesAlive == -1)
+        if (enemy.isLastWaveCompleted)
         {
             LevelComplete();
         }
+        
     }
 
-    private void LevelComplete()
+    public void LevelComplete()
     {
             victoryUI.SetActive(true);
             Time.timeScale = 0;
@@ -23,6 +24,7 @@ public class VictoryCondition : MonoBehaviour
 
     public void Confirm()
     {
+        LoadAndSaveData.instance.SaveData();
         SceneManager.LoadScene("LobbyMenu");
     }
 }

@@ -59,3 +59,7 @@ R
 "Assets/Scripts/VictoryCondition.cs,f\0\f0b58bbe52005d4edda92e863aad9748ac629c30
 Q
 !Assets/Scripts/DefeatCondition.cs,c\8\c84be9f92a690b0e649ec56cd99858f2db676338
+Q
+!Assets/Scripts/LoadAndSaveData.cs,f\4\f4f967fa370fdafed9afff205a3aa1e2a85c8b16
+M
+Assets/Scripts/PlayerXpBar.cs,5\1\51ebf451bd492c264c6f48982ea6289efb0b3c71
