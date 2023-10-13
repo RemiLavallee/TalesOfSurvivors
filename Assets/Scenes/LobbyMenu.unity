@@ -5000,6 +5000,7 @@ GameObject:
   - component: {fileID: 837433088}
   - component: {fileID: 837433089}
   - component: {fileID: 837433090}
+  - component: {fileID: 837433091}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -5049,6 +5050,23 @@ MonoBehaviour:
   coinsCount: 0
   coinsCountText:
   - {fileID: 1665876897}
+--- !u!114 &837433091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837433087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c505d39c6b37142b0eb7d9405bfe0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attack: 0
+  speed: 0
+  def: 0
+  health: 0
+  magnet: 0
 --- !u!1 &853031805
 GameObject:
   m_ObjectHideFlags: 0

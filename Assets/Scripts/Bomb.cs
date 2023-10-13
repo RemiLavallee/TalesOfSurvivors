@@ -18,15 +18,18 @@ public class Bomb : MonoBehaviour, ICollectible
     private void Explode()
     {
         var enemies = GameObject.FindGameObjectsWithTag("Enemy");
-        var enemiesToDestroy = new List<GameObject>();
 
         foreach (var enemy in enemies)
         {
-            enemiesToDestroy.Add(enemy);
-        }
-        foreach (var enemy in enemiesToDestroy)
-        {
-            Destroy(enemy);
+            float distanceToEnemy = Vector3.Distance(transform.position, enemy.transform.position);
+
+            if (distanceToEnemy <= explosionRadius)
+            {
+                var enemyStats = enemy.GetComponent<EnemyStats>();
+                float maxDamage = 50f;
+                float damage = maxDamage * (1 - distanceToEnemy / explosionRadius);
+                enemyStats.TakeDamage(damage);
+            }
         }
     }
 }

@@ -63,3 +63,5 @@ Q
 !Assets/Scripts/LoadAndSaveData.cs,f\4\f4f967fa370fdafed9afff205a3aa1e2a85c8b16
 M
 Assets/Scripts/PlayerXpBar.cs,5\1\51ebf451bd492c264c6f48982ea6289efb0b3c71
+P
+ Assets/Scripts/CharachterStat.cs,e\5\e5dc1e4f98d6efb73ee2fbcf5081722b38a6ebcc

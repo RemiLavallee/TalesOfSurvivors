@@ -37,19 +37,22 @@ public class Lobby : MonoBehaviour
     
     public void Play()
     {
-        SceneManager.LoadSceneAsync("Level1");
         LoadAndSaveData.instance.SaveData();
+        SceneManager.LoadSceneAsync("Level1");
     }
 
     public void Start()
     {
         lobbySound.Play();
-        
+        LoadData();
         statsMap["Health"] = stats[0];
         statsMap["Attack"] = stats[1];
         statsMap["Defense"] = stats[2];
         statsMap["Speed"] = stats[3];
         statsMap["Magnet"] = stats[4];
+        
+        UpdateCurrentStats();
+        
     }
 
     public void Update()
@@ -178,10 +181,35 @@ public class Lobby : MonoBehaviour
             currentCost = 0;
             UpdateCostDisplay();
         }
+        
+        CharachterStat.instance.health = health;
+        CharachterStat.instance.attack = attack;
+        CharachterStat.instance.def = defense;
+        CharachterStat.instance.speed = speed;
+        CharachterStat.instance.magnet = magnet;
     }
     
     public void UpdateCostDisplay()
     {
         costDisplay.text = currentCost.ToString();
+    }
+    
+    public void UpdateCurrentStats()
+    {
+        statsMap["Health"].currentStats.text = CharachterStat.instance.health.ToString();
+        statsMap["Attack"].currentStats.text = CharachterStat.instance.attack.ToString();
+        statsMap["Defense"].currentStats.text = CharachterStat.instance.def.ToString();
+        statsMap["Speed"].currentStats.text = CharachterStat.instance.speed.ToString();
+        statsMap["Magnet"].currentStats.text = CharachterStat.instance.magnet.ToString();
+    }
+    
+    public void LoadData()
+    { 
+        LoadAndSaveData.instance.LoadData();
+        health = CharachterStat.instance.health;
+        attack = CharachterStat.instance.attack;
+        defense = CharachterStat.instance.def;
+        speed = CharachterStat.instance.speed;
+        magnet = CharachterStat.instance.magnet;
     }
 }

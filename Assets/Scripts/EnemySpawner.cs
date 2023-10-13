@@ -65,6 +65,7 @@ public class EnemySpawner : MonoBehaviour
          {
              isLastWaveCompleted = true;
          }
+         
      }
 
      IEnumerator BeginNextWave()

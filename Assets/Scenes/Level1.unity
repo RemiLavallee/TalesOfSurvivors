@@ -1754,6 +1754,7 @@ GameObject:
   - component: {fileID: 558564084}
   - component: {fileID: 558564085}
   - component: {fileID: 558564086}
+  - component: {fileID: 558564087}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -1957,11 +1958,6 @@ MonoBehaviour:
   experience: 0
   level: 1
   experienceCap: 0
-  attack: 0
-  speed: 0
-  def: 2
-  health: 0
-  magnet: 0
   initialSpeed: 200
   attackSound: {fileID: 558564086}
   xpText: {fileID: 1540186613}
@@ -2086,6 +2082,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &558564087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558564077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c505d39c6b37142b0eb7d9405bfe0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attack: 0
+  speed: 0
+  def: 0
+  health: 0
+  magnet: 0
 --- !u!1 &574193030
 GameObject:
   m_ObjectHideFlags: 0
@@ -4651,6 +4664,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7881240741120807656, guid: ed343994c06ba2447b954268263d94df, type: 3}
+      propertyPath: explosionRadius
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881240741120807656, guid: ed343994c06ba2447b954268263d94df, type: 3}
       propertyPath: enemyLayer.m_Bits
       value: 512
       objectReference: {fileID: 0}
@@ -6037,11 +6054,24 @@ MonoBehaviour:
     spawnCount: 0
     enemyGroups:
     - enemyName: buff
-      enemyCount: 1
+      enemyCount: 4
       spawnCount: 0
       enemyPrefab: {fileID: 375487622129792865, guid: 3d68c399738f4644788e46018464df35, type: 3}
     - enemyName: mush
-      enemyCount: 1
+      enemyCount: 4
+      spawnCount: 0
+      enemyPrefab: {fileID: 6459899293203038480, guid: 531bfb79f9edb93479e2f32d261fcae2, type: 3}
+  - waveName: wave 2
+    waveMaxCount: 0
+    spawnInterval: 1
+    spawnCount: 0
+    enemyGroups:
+    - enemyName: buff
+      enemyCount: 6
+      spawnCount: 0
+      enemyPrefab: {fileID: 375487622129792865, guid: 3d68c399738f4644788e46018464df35, type: 3}
+    - enemyName: mush
+      enemyCount: 6
       spawnCount: 0
       enemyPrefab: {fileID: 6459899293203038480, guid: 531bfb79f9edb93479e2f32d261fcae2, type: 3}
   - waveName: 00
@@ -6050,11 +6080,11 @@ MonoBehaviour:
     spawnCount: 0
     enemyGroups:
     - enemyName: buff
-      enemyCount: 1
+      enemyCount: 6
       spawnCount: 0
       enemyPrefab: {fileID: 375487622129792865, guid: 3d68c399738f4644788e46018464df35, type: 3}
     - enemyName: mush
-      enemyCount: 1
+      enemyCount: 6
       spawnCount: 0
       enemyPrefab: {fileID: 6459899293203038480, guid: 531bfb79f9edb93479e2f32d261fcae2, type: 3}
   currentWaveCount: 0

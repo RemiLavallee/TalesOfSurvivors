@@ -14,11 +14,6 @@ public class PlayerStats : MonoBehaviour
     public int experience = 0;
     public int level = 1;
     public int experienceCap;
-    public int attack;
-    public int speed;
-    public int def;
-    public int health;
-    public int magnet;
     public int initialSpeed = 200;
     [SerializeField] private AudioSource attackSound;
     public TextMeshProUGUI xpText;
@@ -33,18 +28,16 @@ public class PlayerStats : MonoBehaviour
 
     public List<LevelRange> levelRanges;
 
-    private void Awake()
-    {
-        currentHealth = maxHealth + health;
-        speed += initialSpeed;
-    }
-
     private void Start()
     {
         animator = GetComponent<Animator>();
         experienceCap = levelRanges[0].experienceCapIncrease;
         InvokeRepeating("MainAttack", 1f, 1f);
-        
+        if (CharachterStat.instance != null)
+        {
+            currentHealth = maxHealth + CharachterStat.instance.health;
+            initialSpeed += CharachterStat.instance.speed;
+        }
     }
 
     public void IncreaseExperience(int amount)

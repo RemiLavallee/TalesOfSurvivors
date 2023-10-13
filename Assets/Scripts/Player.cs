@@ -40,7 +40,7 @@ public class Player : MonoBehaviour
     {
         animator.SetBool("isWalking", Mathf.Abs(movement.x) > 0 || Mathf.Abs(movement.y) > 0);
 
-        rb.velocity = new Vector3(movement.x, movement.y, 0) * (Time.fixedDeltaTime * stats.speed);
+        rb.velocity = new Vector3(movement.x, movement.y, 0) * (Time.fixedDeltaTime * stats.initialSpeed);
 
         if (movement.x < 0)
         {
