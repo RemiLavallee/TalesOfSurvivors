@@ -1,6 +1,5 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
@@ -17,10 +16,12 @@ public class PlayerStats : MonoBehaviour
     public int experienceCap;
     public int attack;
     public int speed;
-    private int def;
-    private int health;
-    private int magnet;
+    public int def;
+    public int health;
+    public int magnet;
+    public int initialSpeed = 200;
     [SerializeField] private AudioSource attackSound;
+    public TextMeshProUGUI xpText;
 
     [System.Serializable]
     public class LevelRange
@@ -35,6 +36,7 @@ public class PlayerStats : MonoBehaviour
     private void Awake()
     {
         currentHealth = maxHealth + health;
+        speed += initialSpeed;
     }
 
     private void Start()
@@ -42,6 +44,7 @@ public class PlayerStats : MonoBehaviour
         animator = GetComponent<Animator>();
         experienceCap = levelRanges[0].experienceCapIncrease;
         InvokeRepeating("MainAttack", 1f, 1f);
+        
     }
 
     public void IncreaseExperience(int amount)
@@ -50,7 +53,7 @@ public class PlayerStats : MonoBehaviour
         LevelUpChecker();
     }
 
-    void LevelUpChecker()
+    public void LevelUpChecker()
     {
         if (experience >= experienceCap)
         {
@@ -66,6 +69,7 @@ public class PlayerStats : MonoBehaviour
             }
             experienceCap += experienceCapIncrease;
         }
+        xpText.text = $"{experience}/{experienceCap}";
     }
     
     public void TakeDamage(float damage)

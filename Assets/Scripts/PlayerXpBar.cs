@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -26,7 +24,7 @@ public class PlayerXpBar : MonoBehaviour
             fillImage.enabled = true;
         }
 
-        var fillValue = player.experience / player.experienceCap;
+        var fillValue = (float)player.experience / player.experienceCap;
         slider.value = fillValue;
     }
 }
