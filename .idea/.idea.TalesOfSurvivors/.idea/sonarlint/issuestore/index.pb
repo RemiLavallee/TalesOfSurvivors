@@ -65,3 +65,9 @@ M
 Assets/Scripts/PlayerXpBar.cs,5\1\51ebf451bd492c264c6f48982ea6289efb0b3c71
 P
  Assets/Scripts/CharachterStat.cs,e\5\e5dc1e4f98d6efb73ee2fbcf5081722b38a6ebcc
+O
+Assets/Scripts/WeaponManager.cs,1\a\1a6c7ed9114a5662fbd4b884cd4b685e3d5e8e88
+L
+Assets/Scripts/SpinAttack.cs,7\f\7f5148ee7c03c1965928c1a2fc780069750e6c41
+M
+Assets/Scripts/SharkAttack.cs,f\3\f3de316c6b301ec364c006ce22e4e7399f3058f0

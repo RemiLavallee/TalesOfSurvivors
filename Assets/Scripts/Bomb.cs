@@ -6,13 +6,16 @@ public class Bomb : MonoBehaviour, ICollectible
 {
     [SerializeField] private AudioSource bombSound;
     public float explosionRadius = 10f;
-    public LayerMask enemyLayer;
+    public CircleCollider2D col;
+    public SpriteRenderer sprite;
+
     
     public void Collect()
-    {
+    { 
         Explode();
-        bombSound.Play();
-        Destroy(gameObject);
+        col.enabled = false;
+        sprite.enabled = false;
+        Destroy(gameObject,2f);
     }
 
     private void Explode()
@@ -29,6 +32,7 @@ public class Bomb : MonoBehaviour, ICollectible
                 float maxDamage = 50f;
                 float damage = maxDamage * (1 - distanceToEnemy / explosionRadius);
                 enemyStats.TakeDamage(damage);
+                bombSound.Play();
             }
         }
     }

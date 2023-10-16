@@ -207,7 +207,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2614542bb198b534dbcf1f35ff73af42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  drops: []
+  drops:
+  - name: Gem
+    itemPrefab: {fileID: 1129225377817153261, guid: 6f27d467a6a9b5e48beda1c04dda484d, type: 3}
+    dropRate: 100
+  - name: Bomb
+    itemPrefab: {fileID: 1142069351992083483, guid: ed343994c06ba2447b954268263d94df, type: 3}
+    dropRate: 5
+  - name: Food
+    itemPrefab: {fileID: 4025311604085111646, guid: d12731333005584499a6493b70ad48ec, type: 3}
+    dropRate: 10
+  - name: Coin
+    itemPrefab: {fileID: 1966230626127302543, guid: 7ce13787e4c70d04882d0839155ea990, type: 3}
+    dropRate: 20
+  - name: Magnet
+    itemPrefab: {fileID: 1910741107384229709, guid: 19755d4ba0bd1424996840631cd57a6e, type: 3}
+    dropRate: 1
 --- !u!95 &4376009616151976429
 Animator:
   serializedVersion: 5

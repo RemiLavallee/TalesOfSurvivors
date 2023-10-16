@@ -17,6 +17,7 @@ public class PlayerStats : MonoBehaviour
     public int initialSpeed = 200;
     [SerializeField] private AudioSource attackSound;
     public TextMeshProUGUI xpText;
+    public WeaponManager weaponManager;
 
     [System.Serializable]
     public class LevelRange
@@ -61,6 +62,7 @@ public class PlayerStats : MonoBehaviour
                 break;
             }
             experienceCap += experienceCapIncrease;
+            weaponManager.LevelupUI();
         }
         xpText.text = $"{experience}/{experienceCap}";
     }
@@ -68,6 +70,11 @@ public class PlayerStats : MonoBehaviour
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
+        if (currentHealth < 0)
+        {
+            currentHealth = 0;
+        }
+        
         if (currentHealth <= 0)
         {
             Death();
@@ -99,7 +106,6 @@ public class PlayerStats : MonoBehaviour
         attackSound.Play();
         var mainAttack = Instantiate(mainAttackPrefab, transform.position, Quaternion.identity);
         mainAttack.transform.right = player.directionToMouse;
-        
     }
     
     public void Stop()

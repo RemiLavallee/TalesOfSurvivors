@@ -337,10 +337,6 @@ MonoBehaviour:
   enemyData: {fileID: 11400000, guid: 0fa3cbcd8ced5d24ea806f0108fa8489, type: 2}
   scaleX: 0.5
   scaleY: 0.5
-  explosionRadius: 30
-  enemy:
-    serializedVersion: 2
-    m_Bits: 512
 --- !u!114 &4707212619716644617
 MonoBehaviour:
   m_ObjectHideFlags: 0

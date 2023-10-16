@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315b332606103e4f80e623eea45cf2f, type: 3}
-  m_Name: EnemySnail
+  m_Script: {fileID: 11500000, guid: 84dfdebc7747a0f479ab115153277054, type: 3}
+  m_Name: SpinAttack
   m_EditorClassIdentifier: 
-  moveSpeed: 100
-  maxHealth: 20
-  damage: 1.5
-  currentHealth: 20
+  prefab: {fileID: 2053471844893721340, guid: d6b4f90d5fc9f97419ac8e4fc6822851, type: 3}
+  damage: 10
+  speed: 20
+  cooldownDuration: 5

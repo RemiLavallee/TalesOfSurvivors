@@ -6,17 +6,17 @@ using Random = UnityEngine.Random;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [System.Serializable]
+    [Serializable]
     public class Wave
     {
         public string waveName;
-        public int waveMaxCount;
+        public int waveQuota;
         public float spawnInterval;
         public int spawnCount;
         public List<EnemyGroup> enemyGroups;
     }
 
-    [System.Serializable]
+    [Serializable]
     public class EnemyGroup
     {
         public string enemyName;
@@ -37,6 +37,7 @@ public class EnemySpawner : MonoBehaviour
     public int enemiesAlive;
     public bool maxEnemiesReached;
     public int maxEnemiesAllowed;
+    private bool waitingForNextWave = false;
 
     [Header("Spawn position")] 
     public List<Transform> relativeSpawnPoints;
@@ -49,7 +50,7 @@ public class EnemySpawner : MonoBehaviour
 
      private void Update()
      {
-         if (currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0)
+         if (currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0 && !waitingForNextWave)
          {
              StartCoroutine(BeginNextWave());
          }
@@ -70,6 +71,7 @@ public class EnemySpawner : MonoBehaviour
 
      IEnumerator BeginNextWave()
      {
+         waitingForNextWave = true;
          yield return new WaitForSeconds(waveInterval);
 
          if (currentWaveCount < waves.Count - 1)
@@ -77,6 +79,7 @@ public class EnemySpawner : MonoBehaviour
              currentWaveCount++;
              CalculateWaveMaxCount();
          }
+         waitingForNextWave = false;
      }
 
      private void CalculateWaveMaxCount()
@@ -88,12 +91,12 @@ public class EnemySpawner : MonoBehaviour
             currentWaveMaxCount += enemyGroup.enemyCount;
         }
 
-        waves[currentWaveCount].waveMaxCount = currentWaveMaxCount;
+        waves[currentWaveCount].waveQuota = currentWaveMaxCount;
     }
 
     void SpawnEnemies()
     {
-        if (waves[currentWaveCount].spawnCount < waves[currentWaveCount].waveMaxCount && !maxEnemiesReached)
+        if (waves[currentWaveCount].spawnCount < waves[currentWaveCount].waveQuota && !maxEnemiesReached)
         {
             foreach (var enemyGroup in waves[currentWaveCount].enemyGroups)
             {

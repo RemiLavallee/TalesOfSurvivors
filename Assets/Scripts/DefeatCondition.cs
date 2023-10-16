@@ -10,10 +10,26 @@ public class DefeatCondition : MonoBehaviour
 
     private void Update()
     {
-        if (player.currentHealth == 0)
+        if (player.currentHealth == 0 && !GameOverUI.activeSelf)
         {
-            GameOverUI.SetActive(true);
+            DestroyAllEnemies();
+            StartCoroutine(ActiveUIDelay(0.5f));
         }
+    }
+    
+    private void DestroyAllEnemies()
+    {
+        var enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        foreach (var enemy in enemies)
+        {
+            Destroy(enemy);
+        }
+    }
+    
+    private IEnumerator ActiveUIDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        GameOverUI.SetActive(true);
     }
 
     public void Retry()
