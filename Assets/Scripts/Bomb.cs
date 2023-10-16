@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour, ICollectible
 {
-    [SerializeField] private AudioSource bombSound;
     public float explosionRadius = 10f;
     public CircleCollider2D col;
     public SpriteRenderer sprite;
+    private AudioManager audioManager;
 
+    public void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     
     public void Collect()
     { 
@@ -32,7 +36,7 @@ public class Bomb : MonoBehaviour, ICollectible
                 float maxDamage = 50f;
                 float damage = maxDamage * (1 - distanceToEnemy / explosionRadius);
                 enemyStats.TakeDamage(damage);
-                bombSound.Play();
+                audioManager.PlayGameSound(audioManager.bomb);
             }
         }
     }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -15,9 +16,9 @@ public class PlayerStats : MonoBehaviour
     public int level = 1;
     public int experienceCap;
     public int initialSpeed = 200;
-    [SerializeField] private AudioSource attackSound;
     public TextMeshProUGUI xpText;
     public WeaponManager weaponManager;
+    private AudioManager audioManager;
 
     [System.Serializable]
     public class LevelRange
@@ -28,6 +29,11 @@ public class PlayerStats : MonoBehaviour
     }
 
     public List<LevelRange> levelRanges;
+
+    public void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
     private void Start()
     {
@@ -46,11 +52,13 @@ public class PlayerStats : MonoBehaviour
         experience += amount;
         LevelUpChecker();
     }
-
+    
     public void LevelUpChecker()
     {
         if (experience >= experienceCap)
         {
+            audioManager.PlayGameSound(audioManager.levelUp);
+          //  weaponManager.LevelupUI();
             level++;
             experience -= experienceCap;
 
@@ -62,7 +70,6 @@ public class PlayerStats : MonoBehaviour
                 break;
             }
             experienceCap += experienceCapIncrease;
-            weaponManager.LevelupUI();
         }
         xpText.text = $"{experience}/{experienceCap}";
     }
@@ -103,7 +110,7 @@ public class PlayerStats : MonoBehaviour
 
     private void MainAttack()
     {
-        attackSound.Play();
+        audioManager.PlayGameSound(audioManager.mainAttack);
         var mainAttack = Instantiate(mainAttackPrefab, transform.position, Quaternion.identity);
         mainAttack.transform.right = player.directionToMouse;
     }

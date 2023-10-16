@@ -13,27 +13,28 @@ public class SpinAttack : MonoBehaviour
     [SerializeField] private float rotationSpeed = 50.0f;
     [SerializeField] private float spriteRotationSpeed = 360.0f;
     private float angle;
-    [SerializeField] private AudioSource spinAttackSound;
+    private AudioManager audioManager;
 
     private void Awake()
     {
-        currentDamage = skillData.Damage ;
+        currentDamage = skillData.Damage;
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        spinAttackSound.Play();
+        audioManager.PlayGameSound(audioManager.spinAttack);
     }
 
     private void Update()
     {
-        angle += rotationSpeed * Time.fixedDeltaTime;
+        angle += rotationSpeed * Time.deltaTime;
         var x = player.transform.position.x + radius * Mathf.Cos(angle * Mathf.Deg2Rad);
         var y = player.transform.position.y + radius * Mathf.Sin(angle * Mathf.Deg2Rad);
         transform.position = new Vector2(x, y);
         
-        transform.Rotate(0, 0, spriteRotationSpeed * Time.fixedDeltaTime);
+        transform.Rotate(0, 0, spriteRotationSpeed * Time.deltaTime);
         
         Destroy(gameObject, destroyDelay);
     }

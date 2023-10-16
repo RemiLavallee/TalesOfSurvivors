@@ -195,4 +195,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillData: {fileID: 11400000, guid: 80d48b4d2be92fc49bfab5d65f5b02bb, type: 2}
   destroyDelay: 100
-  speed: 10
+  speed: 8
+  initialAngleInDegrees: 45

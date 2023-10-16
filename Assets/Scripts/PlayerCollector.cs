@@ -5,18 +5,23 @@ using UnityEngine;
 
 public class PlayerCollector : MonoBehaviour
 {
-    public AudioSource xp;
+    private AudioManager audioManager;
+    
+    public void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    } 
     
     private void OnTriggerEnter2D(Collider2D collision)
-  {
-      if (collision.gameObject.TryGetComponent(out ICollectible collectible))
-      {
-          collectible.Collect();
-      }
-      
-      if (collision.CompareTag("XpCollectible"))
-      {
-          xp.Play();
-      }
-  }
+    {
+          if (collision.gameObject.TryGetComponent(out ICollectible collectible))
+          {
+              collectible.Collect();
+          }
+          
+          if (collision.CompareTag("XpCollectible"))
+          {
+              audioManager.PlayGameSound(audioManager.xp);
+          }
+    }
 }

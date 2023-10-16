@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - XpCollectible
+  - Audio
   layers:
   - Default
   - TransparentFX
