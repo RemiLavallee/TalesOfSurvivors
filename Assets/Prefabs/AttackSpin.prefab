@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2034376429, guid: 19780b273c19b1440b8d60eca386404c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -166,4 +166,3 @@ MonoBehaviour:
   radius: 2
   rotationSpeed: 600
   spriteRotationSpeed: 3000
-  spinAttackSound: {fileID: 0}

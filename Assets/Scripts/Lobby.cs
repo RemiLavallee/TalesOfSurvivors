@@ -20,7 +20,8 @@ public class Lobby : MonoBehaviour
     public int health;
     public int upgradeCost = 500;
     public int currentCost = 0;
-    public TextMeshProUGUI costDisplay; 
+    public TextMeshProUGUI costDisplay;
+    public AudioSource onClick;
 
     [Serializable]
     public class Stats
@@ -37,6 +38,7 @@ public class Lobby : MonoBehaviour
     
     public void Play()
     {
+        onClick.Play();
         LoadAndSaveData.instance.SaveData();
         SceneManager.LoadSceneAsync("Level1");
     }
@@ -66,11 +68,13 @@ public class Lobby : MonoBehaviour
 
     public void Exit()
     {
+        onClick.Play();
         Application.Quit();
     }
 
     public void UpHealth()
     {
+        onClick.Play();
         healthUpgrade++;
         currentCost += upgradeCost;
         UpdateCostDisplay();
@@ -78,6 +82,7 @@ public class Lobby : MonoBehaviour
     
     public void UpAttack()
     {
+        onClick.Play();
         attackUpgrade++;
         currentCost += upgradeCost;
         UpdateCostDisplay();
@@ -85,6 +90,7 @@ public class Lobby : MonoBehaviour
     
     public void UpDefense()
     {
+        onClick.Play();
         defenseUpgrade++;
         currentCost += upgradeCost;
         UpdateCostDisplay();
@@ -92,6 +98,7 @@ public class Lobby : MonoBehaviour
     
     public void UpSpeed()
     {
+        onClick.Play();
         speedUpgrade++;
         currentCost += upgradeCost;
         UpdateCostDisplay();
@@ -99,6 +106,7 @@ public class Lobby : MonoBehaviour
     
     public void UpMagnet()
     {
+        onClick.Play();
         magnetUpgrade++;
         currentCost += upgradeCost;
         UpdateCostDisplay();
@@ -106,6 +114,8 @@ public class Lobby : MonoBehaviour
     
     public void DownMagnet()
     {
+        onClick.Play();
+        
         if (magnetUpgrade > 0)
         {
             magnetUpgrade--;
@@ -116,6 +126,8 @@ public class Lobby : MonoBehaviour
     
     public void DownSpeed()
     {
+        onClick.Play();
+        
         if (speedUpgrade > 0)
         {
             speedUpgrade--;
@@ -126,6 +138,8 @@ public class Lobby : MonoBehaviour
     
     public void DownDefense()
     {
+        onClick.Play();
+        
         if (defenseUpgrade > 0)
         {
             defenseUpgrade--;
@@ -136,6 +150,8 @@ public class Lobby : MonoBehaviour
     
     public void DownAttack()
     {
+        onClick.Play();
+        
         if (attackUpgrade > 0)
         {
             attackUpgrade--;
@@ -146,6 +162,8 @@ public class Lobby : MonoBehaviour
     
     public void DownHealth()
     {
+        onClick.Play();
+        
         if (healthUpgrade > 0)
         {
             healthUpgrade--;
@@ -187,6 +205,8 @@ public class Lobby : MonoBehaviour
         CharachterStat.instance.def = defense;
         CharachterStat.instance.speed = speed;
         CharachterStat.instance.magnet = magnet;
+        
+        onClick.Play();
     }
     
     public void UpdateCostDisplay()
