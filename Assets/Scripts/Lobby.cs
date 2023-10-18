@@ -22,6 +22,10 @@ public class Lobby : MonoBehaviour
     public int currentCost = 0;
     public TextMeshProUGUI costDisplay;
     public AudioSource onClick;
+    public GameObject usernameUI;
+    private string username;
+    public TextMeshProUGUI usernameDisplay;
+
 
     [Serializable]
     public class Stats
@@ -45,6 +49,18 @@ public class Lobby : MonoBehaviour
 
     public void Start()
     {
+        LoadUsername();
+        
+        if (string.IsNullOrEmpty(usernameDisplay.text))
+        {
+            usernameUI.SetActive(true);
+        }
+            
+        if (!string.IsNullOrEmpty(usernameDisplay.text))
+        {
+            usernameUI.SetActive(false);
+        }
+        
         lobbySound.Play();
         LoadData();
         statsMap["Health"] = stats[0];
@@ -54,7 +70,6 @@ public class Lobby : MonoBehaviour
         statsMap["Magnet"] = stats[4];
         
         UpdateCurrentStats();
-        
     }
 
     public void Update()
@@ -231,5 +246,31 @@ public class Lobby : MonoBehaviour
         defense = CharachterStat.instance.def;
         speed = CharachterStat.instance.speed;
         magnet = CharachterStat.instance.magnet;
+    }
+
+    public void Confirm()
+    {
+        usernameUI.SetActive(false);
+        SaveUsername();
+    }
+    
+    public void SaveUsernameDisplay(TMP_InputField inputField)
+    {
+        username = inputField.text;
+        usernameDisplay.text = username;
+    }
+    
+    public void SaveUsername()
+    {
+        PlayerPrefs.SetString("Username", usernameDisplay.text);
+        PlayerPrefs.Save();
+    }
+
+    public void LoadUsername()
+    {
+        if (PlayerPrefs.HasKey("Username"))
+        {
+            usernameDisplay.text = PlayerPrefs.GetString("Username");
+        }
     }
 }
