@@ -9,7 +9,7 @@ public class VictoryCondition : MonoBehaviour
 
     public void Update()
     {
-        if (enemy.isLastWaveCompleted && enemy.enemiesAlive == -1)
+        if (enemy.isLastWaveCompleted && enemy.enemiesAlive == 0)
         {
             LevelComplete();
         }

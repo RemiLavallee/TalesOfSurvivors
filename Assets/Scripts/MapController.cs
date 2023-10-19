@@ -68,57 +68,73 @@ public class MapController : MonoBehaviour
 
     private void ChunkCheckRight()
     {
-        if (Physics2D.OverlapCircle(currentChunk.transform.Find("Right").position, checkerRadius, terrainMask)) return;
-        noTerrainPosition = currentChunk.transform.Find("Right").position;
+        var rightTransform = currentChunk.transform.Find("Right");
+        if (rightTransform == null || Physics2D.OverlapCircle(rightTransform.position, checkerRadius, terrainMask))
+            return;
+        noTerrainPosition = rightTransform.position;
         SpawnChunk();
     }
 
     private void ChunkCheckLeft()
     {
-        if (Physics2D.OverlapCircle(currentChunk.transform.Find("Left").position, checkerRadius, terrainMask)) return;
-        noTerrainPosition = currentChunk.transform.Find("Left").position;
+        var leftTransform = currentChunk.transform.Find("Left");
+        if (leftTransform == null || Physics2D.OverlapCircle(leftTransform.position, checkerRadius, terrainMask))
+            return;
+        noTerrainPosition = leftTransform.position;
         SpawnChunk();
     }
 
     private void ChunkCheckUp()
     {
-        if (Physics2D.OverlapCircle(currentChunk.transform.Find("Up").position, checkerRadius, terrainMask)) return;
-        noTerrainPosition = currentChunk.transform.Find("Up").position;
+        var upTransform = currentChunk.transform.Find("Up");
+        if (upTransform == null || Physics2D.OverlapCircle(upTransform.position, checkerRadius, terrainMask))
+            return;
+        noTerrainPosition = upTransform.position;
         SpawnChunk();
     }
 
     private void ChunkCheckDown()
     {
-        if (Physics2D.OverlapCircle(currentChunk.transform.Find("Down").position, checkerRadius, terrainMask)) return;
-        noTerrainPosition = currentChunk.transform.Find("Down").position;
+        var downTransform = currentChunk.transform.Find("Down");
+        if (downTransform == null || Physics2D.OverlapCircle(downTransform.position, checkerRadius, terrainMask))
+            return;
+        noTerrainPosition = downTransform.position;
         SpawnChunk();
     }
 
     private void ChunkCheckRightUp()
     {
-        if (Physics2D.OverlapCircle(currentChunk.transform.Find("Right_Up").position, checkerRadius, terrainMask)) return;
-        noTerrainPosition = currentChunk.transform.Find("Right_Up").position;
+        var rightUpTransform = currentChunk.transform.Find("Right_Up");
+        if (rightUpTransform == null || Physics2D.OverlapCircle(rightUpTransform.position, checkerRadius, terrainMask))
+            return;
+        noTerrainPosition = rightUpTransform.position;
         SpawnChunk();
     }
 
     private void ChunkCheckRightDown()
     {
-        if (Physics2D.OverlapCircle(currentChunk.transform.Find("Right_Down").position, checkerRadius, terrainMask)) return;
-        noTerrainPosition = currentChunk.transform.Find("Right_Down").position;
+        var rightDownTransform = currentChunk.transform.Find("Right_Down");
+        if (rightDownTransform== null || Physics2D.OverlapCircle(rightDownTransform.position, checkerRadius, terrainMask))
+            return;
+        noTerrainPosition = rightDownTransform.position;
         SpawnChunk();
     }
 
     private void ChunkCheckLeftUp()
     {
-        if (Physics2D.OverlapCircle(currentChunk.transform.Find("Left_Up").position, checkerRadius, terrainMask)) return;
-        noTerrainPosition = currentChunk.transform.Find("Left_Up").position;
+        var leftUpTransform = currentChunk.transform.Find("Left_Up");
+        if (leftUpTransform == null || Physics2D.OverlapCircle(leftUpTransform.position, checkerRadius, terrainMask))
+            return;
+        noTerrainPosition = leftUpTransform.position;
         SpawnChunk();
     }
 
     private void ChunkCheckLeftDown()
     {
-        if (Physics2D.OverlapCircle(currentChunk.transform.Find("Left_Down").position, checkerRadius, terrainMask)) return;
-        noTerrainPosition = currentChunk.transform.Find("Left_Down").position;
+        var leftDownTransform = currentChunk.transform.Find("Left_Down");
+        if (leftDownTransform == null || Physics2D.OverlapCircle(leftDownTransform.position, checkerRadius, terrainMask))
+            return;
+        noTerrainPosition = leftDownTransform.position;
         SpawnChunk();
     }
 

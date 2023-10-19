@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Button = UnityEngine.UI.Button;
+using UnityEngine.UI;
 
 public class Lobby : MonoBehaviour
 {
@@ -25,7 +25,13 @@ public class Lobby : MonoBehaviour
     public GameObject usernameUI;
     private string username;
     public TextMeshProUGUI usernameDisplay;
-
+    public List<GameObject> levelImage;
+    public List<GameObject> levelName;
+    public GameObject levelNameText;
+    public GameObject currentLevelImage;
+    private int currentLevelIndex = 0;
+    public List<string> levelSceneNames;
+    
 
     [Serializable]
     public class Stats
@@ -44,12 +50,18 @@ public class Lobby : MonoBehaviour
     {
         onClick.Play();
         LoadAndSaveData.instance.SaveData();
-        SceneManager.LoadSceneAsync("Level1");
+        
+        if(currentLevelIndex >= 0 && currentLevelIndex < levelSceneNames.Count)
+        {
+            string sceneNameToLoad = levelSceneNames[currentLevelIndex];
+            SceneManager.LoadSceneAsync(sceneNameToLoad);
+        }
     }
 
     public void Start()
     {
         LoadUsername();
+        UpdateLevel();
         
         if (string.IsNullOrEmpty(usernameDisplay.text))
         {
@@ -271,6 +283,37 @@ public class Lobby : MonoBehaviour
         if (PlayerPrefs.HasKey("Username"))
         {
             usernameDisplay.text = PlayerPrefs.GetString("Username");
+        }
+    }
+
+    public void nextLevel()
+    {
+        if (currentLevelIndex < levelImage.Count - 1)
+        {
+            currentLevelIndex++;
+            UpdateLevel();
+        }
+    }
+
+    public void backLevel()
+    {
+        if (currentLevelIndex > 0)
+        {
+            currentLevelIndex--;
+            UpdateLevel();
+        }
+    }
+    
+    private void UpdateLevel()
+    {
+        for (int i = 0; i < levelImage.Count; i++)
+        {
+            levelImage[i].SetActive(i == currentLevelIndex);
+        }
+        
+        for (int i = 0; i < levelName.Count; i++)
+        {
+            levelName[i].SetActive(i == currentLevelIndex);
         }
     }
 }

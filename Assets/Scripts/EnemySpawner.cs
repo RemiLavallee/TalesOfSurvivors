@@ -62,7 +62,7 @@ public class EnemySpawner : MonoBehaviour
              SpawnEnemies();
          }
          
-         if (enemiesAlive == -1 && waves[currentWaveCount].waveName == lastWaveName)
+         if (enemiesAlive == 0 && waves[currentWaveCount].waveName == lastWaveName)
          {
              isLastWaveCompleted = true;
          }

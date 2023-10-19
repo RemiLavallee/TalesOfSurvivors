@@ -73,3 +73,11 @@ M
 Assets/Scripts/SharkAttack.cs,f\3\f3de316c6b301ec364c006ce22e4e7399f3058f0
 N
 Assets/Scripts/AudioManager.cs,0\4\047ee41b2df711616e4a56dba7ef08fa2523341b
+O
+Assets/Scripts/MapController.cs,d\f\df9ed0e898b133b669e09c1ad5b16c984fa6c3b7
+N
+Assets/Scripts/PlayerCamera.cs,c\6\c6f8363272e5f7eef0557a684635c250a85588a3
+O
+Assets/Scripts/CameraLimiter.cs,a\0\a09fca14ab767ebb9599e199bf40da8538bce8c6
+Q
+!Assets/Scripts/HealthbarFollow.cs,f\0\f03846858564799735c2bec875129a22aa39df01

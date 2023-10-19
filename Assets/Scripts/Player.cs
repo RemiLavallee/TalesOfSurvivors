@@ -6,16 +6,11 @@ public class Player : MonoBehaviour
     [HideInInspector] public Vector3 directionToMouse;
     private Animator animator;
     [HideInInspector] public Vector2 movement;
-    private SpriteRenderer spriteRenderer;
-    private Sprite idleSprite;
-    private bool isFacingRight = true;
     public PlayerStats stats;
     
     private void Start()
     {
         animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        idleSprite = spriteRenderer.sprite;
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -44,12 +39,10 @@ public class Player : MonoBehaviour
 
         if (movement.x < 0)
         {
-            isFacingRight = true;
             transform.localScale = new Vector3(1, 1, 1);
         }
         else if (movement.x > 0)
         {
-            isFacingRight = false;
             transform.localScale = new Vector3(-1, 1, 1);
         }
     }
