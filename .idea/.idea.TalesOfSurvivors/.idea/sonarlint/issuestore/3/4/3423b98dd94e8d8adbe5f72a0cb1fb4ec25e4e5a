@@ -1,12 +1,13 @@
 
-Ecsharpsquid:S3903"(Move 'MenuPause' into a named namespace.(ÃÈÖ¥
-mcsharpsquid:S1104
-"DMake this field 'private' and encapsulate it in a 'public' property.(°†¸Òøÿÿÿÿ8üÉ¯±1
-hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(÷‹ñò8ÿá¢±1
-hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÉÇæ—8İƒ¦Å³1
-hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(€Çëú8™î¨Å³1
-hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ùÔöæ8™–Æ³1
-mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(©ˆû†ûÿÿÿÿ8™–Æ³1
-jcsharpsquid:S2223"FChange the visibility of 'gamePause' or make it 'const' or 'readonly'.(÷‹ñò8è¬£±1
-~csharpsquid:S2696*"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(Š§Û™øÿÿÿÿ8¢‰ŞÈ³1
-ycsharpsquid:S26961"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(µ‚íû8£‰ŞÈ³1
+Ecsharpsquid:S3903"(Move 'MenuPause' into a named namespace.(ÃÈÖ¥
+mcsharpsquid:S1104	"DMake this field 'private' and encapsulate it in a 'public' property.(°†¸Òøÿÿÿÿ8üÉ¯±1
+hcsharpsquid:S1104
+"DMake this field 'private' and encapsulate it in a 'public' property.(÷‹ñò8ÿá¢±1
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÉÇæ—8İƒ¦Å³1
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(€Çëú8™î¨Å³1
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ùÔöæ8™–Æ³1
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(©ˆû†ûÿÿÿÿ8™–Æ³1
+jcsharpsquid:S2223
+"FChange the visibility of 'gamePause' or make it 'const' or 'readonly'.(÷‹ñò8è¬£±1
+~csharpsquid:S2696)"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(Š§Û™øÿÿÿÿ8¢‰ŞÈ³1
+ycsharpsquid:S26960"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(µ‚íû8£‰ŞÈ³1

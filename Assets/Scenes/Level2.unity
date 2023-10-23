@@ -1439,9 +1439,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainAttackPrefab: {fileID: 2182861352958708135, guid: ce831dee6c77aea489d932b7c8e02fea, type: 3}
   player: {fileID: 383295345}
-  healthBar: {fileID: 0}
-  maxHealth: 100000
-  currentHealth: 100000
+  healthBar: {fileID: 772015443}
+  maxHealth: 200
+  currentHealth: 200
   experience: 0
   level: 1
   experienceCap: 0
@@ -2252,7 +2252,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -8637869057953447569, guid: c273726473481d047ba6c111c6da5e86, type: 2}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -6295,9 +6295,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 2438304041808124396, guid: c273726473481d047ba6c111c6da5e86, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 0f78ec3783c7d394cb864b1642fcf89a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ea510b3aa634ce547aa732dfc189c2c5, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -9678,6 +9678,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minY: -1
   maxY: 1
+  minX: 0
+  maxX: 0
   target: {fileID: 383295349}
 --- !u!1 &1718614951
 GameObject:

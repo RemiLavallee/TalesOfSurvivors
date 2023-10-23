@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraLimiter : MonoBehaviour
@@ -11,8 +8,13 @@ public class CameraLimiter : MonoBehaviour
 
     private void LateUpdate()
     {
-        var xPosition = Mathf.Clamp(target.position.x, minX, maxX);
+        var xPosition = target.position.x;
 
+        if (!(minX == 0 && maxX == 0))
+        {
+           xPosition = Mathf.Clamp(target.position.x, minX, maxX);
+        }
+        
         var yPosition = Mathf.Clamp(target.position.y, minY, maxY);
 
         transform.position = new Vector3(xPosition, yPosition, -10f);
