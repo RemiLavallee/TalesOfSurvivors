@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3503926329810663780}
   - component: {fileID: 8188013236419020650}
   - component: {fileID: 2842884723700806283}
-  - component: {fileID: 2993497790318244827}
+  - component: {fileID: 2740970467359282378}
   m_Layer: 0
   m_Name: AttackSpin
   m_TagString: Untagged
@@ -149,7 +149,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &2993497790318244827
+--- !u!114 &2740970467359282378
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,12 +158,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2053471844893721340}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d2fd4676bf14604caeb0d643597f30e, type: 3}
+  m_Script: {fileID: 11500000, guid: d3023058f762ae84b8ffa7379555c626, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weaponData: {fileID: 11400000, guid: 606b46f688e420344884a20bda2112fc, type: 2}
-  currentCooldown: 0
-  destroyDelay: 10
   radius: 2
-  rotationSpeed: 600
-  spriteRotationSpeed: 3000
+  rotationSpeed: 500
+  spriteRotationSpeed: 5000
+  destroyDelay: 6

@@ -5,10 +5,11 @@ public class WeaponController : MonoBehaviour
 {
     public SkillScriptableObject weaponData;
     public float currentCooldown;
+    
 
     protected virtual void Start()
     {
-        currentCooldown = weaponData.CooldownDuration;
+        Attack();
     }
 
     protected virtual void Update()

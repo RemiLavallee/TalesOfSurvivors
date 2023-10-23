@@ -5,12 +5,12 @@ using UnityEngine;
 public class InventoryManager : MonoBehaviour
 {
 
-    public List<GameObject> weaponSlots = new List<GameObject>();
+    public List<WeaponController> weaponSlots = new List<WeaponController>();
     public List<PassiveItems> passiveItemsSlots = new List<PassiveItems>();
     public int[] weaponLevels = new int[5];
     public int[] passiveItemLevels = new int[5];
 
-    public void AddWeapon(int slotIndex, GameObject weapon)
+    public void AddWeapon(int slotIndex, WeaponController weapon)
     {
         weaponSlots[slotIndex] = weapon;
         //weaponLevels[slotIndex] = weapon

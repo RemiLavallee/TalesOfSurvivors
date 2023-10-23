@@ -141,7 +141,7 @@ public class PlayerStats : MonoBehaviour
     {
         var spawnedWeapon = Instantiate(weapon, transform.position, Quaternion.identity);
         spawnedWeapon.transform.SetParent(transform);
-        inventory.AddWeapon(weaponIndex, spawnedWeapon.GetComponent<GameObject>());
+        inventory.AddWeapon(weaponIndex, spawnedWeapon.GetComponent<WeaponController>());
         weaponIndex++;
     }
     

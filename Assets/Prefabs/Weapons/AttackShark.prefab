@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8750815700508538841}
   - component: {fileID: 5862215299432800324}
   - component: {fileID: 1704679760482928166}
-  - component: {fileID: 6923209910889580961}
+  - component: {fileID: 922766454127300966}
   m_Layer: 0
   m_Name: AttackShark
   m_TagString: Untagged
@@ -181,7 +181,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6923209910889580961
+--- !u!114 &922766454127300966
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -190,10 +190,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5195181989775172355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287c36662385022479a55a6a96f503c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 4aeed5887bc80754a89b8418a61197c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillData: {fileID: 11400000, guid: 80d48b4d2be92fc49bfab5d65f5b02bb, type: 2}
-  destroyDelay: 100
-  speed: 8
+  weaponData: {fileID: 11400000, guid: 80d48b4d2be92fc49bfab5d65f5b02bb, type: 2}
+  destroyDelay: 15
   initialAngleInDegrees: 45
