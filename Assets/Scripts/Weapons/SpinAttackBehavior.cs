@@ -6,7 +6,7 @@ public class SpinAttackBehavior : MonoBehaviour
     public SkillScriptableObject weaponData;
     private WeaponController wc;
     [SerializeField] private float radius = 2.0f;
-    [SerializeField] private float rotationSpeed = 50.0f;
+     private float rotationSpeed;
     [SerializeField] private float spriteRotationSpeed = 360.0f;
     private float angle;
     [SerializeField] private float destroyDelay = 3f;
@@ -19,6 +19,7 @@ public class SpinAttackBehavior : MonoBehaviour
         Destroy(gameObject, destroyDelay);
         player = GameObject.FindGameObjectWithTag("Player");
         currentDamage = weaponData.Damage;
+        rotationSpeed = weaponData.Speed;
     }
 
     private void Update()

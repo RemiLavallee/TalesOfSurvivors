@@ -163,6 +163,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponData: {fileID: 11400000, guid: 606b46f688e420344884a20bda2112fc, type: 2}
   radius: 2
-  rotationSpeed: 500
   spriteRotationSpeed: 5000
   destroyDelay: 6

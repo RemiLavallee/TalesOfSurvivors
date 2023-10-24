@@ -1,12 +1,5 @@
 
-Jcsharpsquid:S3903"-Move 'LevelUpManager' into a named namespace.(ü°”ö
-–csharpsquid:S1186,"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(ï½
-fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¿å™êùÿÿÿÿ
-acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(öæÚŒ
-acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(Æ¬Öë
-fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(µµ¶ûÿÿÿÿ
-`csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(µæq
-`csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(š”ä!
-fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(í¨è¡üÿÿÿÿ
-fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¤Ğèäùÿÿÿÿ
-acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¿Ë
+Jcsharpsquid:S3903"-Move 'LevelUpManager' into a named namespace.(ü°”ö
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¿å™êùÿÿÿÿ8ÔÏˆ÷µ1
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¢Õ˜Şúÿÿÿÿ8àÈÍøµ1
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(®÷¯½8½‹ğúµ1

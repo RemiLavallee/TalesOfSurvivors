@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9cb4cc8d8ff8c45a84e9085969c4ee, type: 3}
+  m_Name: HealthPassiveItem Level2
+  m_EditorClassIdentifier: 
+  multipler: 15
+  level: 2
+  nextLevelPrefab: {fileID: 0}
+  name: Health Booster Level 2
+  description: Add 20% health.
+  image: {fileID: -864001825, guid: 3ec8d708716e945458601f52f2e26e6a, type: 3}
