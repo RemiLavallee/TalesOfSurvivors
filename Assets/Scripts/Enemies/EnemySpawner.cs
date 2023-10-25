@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 using Random = UnityEngine.Random;
 
 public class EnemySpawner : MonoBehaviour
@@ -30,7 +29,6 @@ public class EnemySpawner : MonoBehaviour
     public int currentWaveCount;
     private Transform player;
     public string lastWaveName;
-    public bool isLastWaveCompleted = false;
     
     [Header("Spawn Attributes")]
     private float spawnTimer;
@@ -39,6 +37,7 @@ public class EnemySpawner : MonoBehaviour
     public bool maxEnemiesReached;
     public int maxEnemiesAllowed;
     private bool waitingForNextWave = false;
+    
 
     [Header("Spawn position")] 
     public List<Transform> relativeSpawnPoints;
@@ -51,23 +50,17 @@ public class EnemySpawner : MonoBehaviour
 
      private void Update()
      {
-         if (currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0 && !waitingForNextWave)
+         if (waves[currentWaveCount].spawnCount >= waves[currentWaveCount].waveQuota && !waitingForNextWave)
          {
              StartCoroutine(BeginNextWave());
          }
-         spawnTimer += Time.fixedDeltaTime;
+         spawnTimer += Time.deltaTime;
 
          if (spawnTimer >= waves[currentWaveCount].spawnInterval)
          {
              spawnTimer = 0f;
              SpawnEnemies();
          }
-         
-         if (enemiesAlive == 0 && waves[currentWaveCount].waveName == lastWaveName)
-         {
-             isLastWaveCompleted = true;
-         }
-         
      }
 
      public IEnumerator BeginNextWave()
@@ -97,37 +90,26 @@ public class EnemySpawner : MonoBehaviour
 
      void SpawnEnemies()
      {
-         if (waves[currentWaveCount].spawnCount < waves[currentWaveCount].waveQuota && !maxEnemiesReached)
+         foreach (var enemyGroup in waves[currentWaveCount].enemyGroups)
          {
-             foreach (var enemyGroup in waves[currentWaveCount].enemyGroups)
+             if (enemyGroup.spawnCount < enemyGroup.enemyCount && enemiesAlive < maxEnemiesAllowed)
              {
-                 if (enemyGroup.spawnCount < enemyGroup.enemyCount)
-                 {
-                     if (enemiesAlive >= maxEnemiesAllowed)
-                     {
-                         maxEnemiesReached = true;
-                         return;
-                     }
-                    
-                     Instantiate(enemyGroup.enemyPrefab,
-                         player.position + relativeSpawnPoints[Random.Range(0, relativeSpawnPoints.Count)].position,
-                         Quaternion.identity);
+                 Instantiate(enemyGroup.enemyPrefab,
+                     player.position + relativeSpawnPoints[Random.Range(0, relativeSpawnPoints.Count)].position,
+                     Quaternion.identity);
 
-                     enemyGroup.spawnCount++;
-                     waves[currentWaveCount].spawnCount++;
-                     enemiesAlive++;
-                 }
+                 enemyGroup.spawnCount++;
+                 waves[currentWaveCount].spawnCount++;
+                 enemiesAlive++;
              }
          }
 
-         if (enemiesAlive < maxEnemiesAllowed)
-         {
-             maxEnemiesReached = false;
-         }
+         maxEnemiesReached = (enemiesAlive >= maxEnemiesAllowed);
      }
 
      public void OnEnemyKilled()
      {
          enemiesAlive--;
+         enemiesAlive = Mathf.Max(0, enemiesAlive);
      }
 }

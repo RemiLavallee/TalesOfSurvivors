@@ -58,7 +58,7 @@ public class Lobby : MonoBehaviour
         }
     }
 
-    public void Start()
+    private void Start()
     {
         LoadUsername();
         UpdateLevel();
@@ -84,7 +84,7 @@ public class Lobby : MonoBehaviour
         UpdateCurrentStats();
     }
 
-    public void Update()
+    private void Update()
     {
         statsMap["Health"].upgradeStats.text = healthUpgrade.ToString();
         statsMap["Attack"].upgradeStats.text = attackUpgrade.ToString();
@@ -235,13 +235,13 @@ public class Lobby : MonoBehaviour
         
         onClick.Play();
     }
-    
-    public void UpdateCostDisplay()
+
+    private void UpdateCostDisplay()
     {
         costDisplay.text = currentCost.ToString();
     }
-    
-    public void UpdateCurrentStats()
+
+    private void UpdateCurrentStats()
     {
         statsMap["Health"].currentStats.text = CharachterStat.instance.health.ToString();
         statsMap["Attack"].currentStats.text = CharachterStat.instance.attack.ToString();
@@ -249,8 +249,8 @@ public class Lobby : MonoBehaviour
         statsMap["Speed"].currentStats.text = CharachterStat.instance.speed.ToString();
         statsMap["Magnet"].currentStats.text = CharachterStat.instance.magnet.ToString();
     }
-    
-    public void LoadData()
+
+    private void LoadData()
     { 
         LoadAndSaveData.instance.LoadData();
         health = CharachterStat.instance.health;
@@ -271,14 +271,14 @@ public class Lobby : MonoBehaviour
         username = inputField.text;
         usernameDisplay.text = username;
     }
-    
-    public void SaveUsername()
+
+    private void SaveUsername()
     {
         PlayerPrefs.SetString("Username", usernameDisplay.text);
         PlayerPrefs.Save();
     }
 
-    public void LoadUsername()
+    private void LoadUsername()
     {
         if (PlayerPrefs.HasKey("Username"))
         {
@@ -286,8 +286,10 @@ public class Lobby : MonoBehaviour
         }
     }
 
-    public void nextLevel()
+    public void NextLevel()
     {
+        onClick.Play();
+        
         if (currentLevelIndex < levelImage.Count - 1)
         {
             currentLevelIndex++;
@@ -295,8 +297,10 @@ public class Lobby : MonoBehaviour
         }
     }
 
-    public void backLevel()
+    public void BackLevel()
     {
+        onClick.Play();
+        
         if (currentLevelIndex > 0)
         {
             currentLevelIndex--;
@@ -306,12 +310,12 @@ public class Lobby : MonoBehaviour
     
     private void UpdateLevel()
     {
-        for (int i = 0; i < levelImage.Count; i++)
+        for (var i = 0; i < levelImage.Count; i++)
         {
             levelImage[i].SetActive(i == currentLevelIndex);
         }
         
-        for (int i = 0; i < levelName.Count; i++)
+        for (var i = 0; i < levelName.Count; i++)
         {
             levelName[i].SetActive(i == currentLevelIndex);
         }

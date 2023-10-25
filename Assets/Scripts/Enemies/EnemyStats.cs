@@ -44,6 +44,8 @@ public class EnemyStats : MonoBehaviour
 
     private void Kill()
     {
+        var enemySpawner = FindObjectOfType<EnemySpawner>();
+        enemySpawner.OnEnemyKilled();
         Destroy(gameObject);
     }
 
@@ -55,13 +57,13 @@ public class EnemyStats : MonoBehaviour
             player.TakeDamage(currentDamage);
         }
     }
-
+/*
     private void OnDestroy()
     {
         var enemySpawner = FindObjectOfType<EnemySpawner>();
         enemySpawner.OnEnemyKilled();
     }
-
+*/
     void ReturnEnemy()
     {
         var es = FindObjectOfType<EnemySpawner>();
