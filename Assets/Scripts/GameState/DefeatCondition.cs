@@ -7,13 +7,16 @@ public class DefeatCondition : MonoBehaviour
 {
     public GameObject GameOverUI;
     public PlayerStats player;
+    public GameObject xpBarUI;
 
     private void Update()
     {
-        if (player.currentHealth == 0 && !GameOverUI.activeSelf)
+        if (player.currentHealth == 0)
         {
             DestroyAllEnemies();
             StartCoroutine(ActiveUIDelay(0.5f));
+            GameOverUI.SetActive(true);
+            xpBarUI.SetActive(false);
         }
     }
     
@@ -29,7 +32,7 @@ public class DefeatCondition : MonoBehaviour
     private IEnumerator ActiveUIDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        GameOverUI.SetActive(true);
+       
     }
 
     public void Retry()

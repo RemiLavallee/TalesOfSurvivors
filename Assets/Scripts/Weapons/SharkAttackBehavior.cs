@@ -1,16 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SharkAttackBehavior : MonoBehaviour
 {
-    public SkillScriptableObject weaponData;
+    [SerializeField] private SkillScriptableObject weaponData;
     [SerializeField] private float destroyDelay;
     [SerializeField] private float initialAngleInDegrees = 45f;
     private Vector2 direction;
     private float currentDamage;
     private float screenHalfWidth, screenHalfHeight;
     private WeaponController wc;
+    [SerializeField] private float offsetY;
     
     private void Awake()
     {
@@ -36,27 +36,38 @@ public class SharkAttackBehavior : MonoBehaviour
     
     private void BounceOffScreen()
     {
+        CheckAndBounceX();
+        CheckAndBounceY();
+    }
+    
+    private void CheckAndBounceX()
+    {
         var cameraX = Camera.main.transform.position.x;
-        var cameraY = Camera.main.transform.position.y;
-        
-        if (transform.position.x > cameraX + screenHalfWidth && direction.x > 0)
+        if ((transform.position.x > cameraX + screenHalfWidth && direction.x > 0) ||
+            (transform.position.x < cameraX - screenHalfWidth && direction.x < 0))
         {
             direction.x = -direction.x;
         }
+    }
 
-        if (transform.position.x < cameraX - screenHalfWidth && direction.x < 0)
+    private void CheckAndBounceY()
+    {
+        if (SceneManager.GetActiveScene().name == "Level2")
         {
-            direction.x = -direction.x;
+            if ((transform.position.y > offsetY && direction.y > 0) ||
+                (transform.position.y < -offsetY && direction.y < 0))
+            {
+                direction.y = -direction.y;
+            }
         }
-
-        if (transform.position.y > cameraY + screenHalfHeight && direction.y > 0)
+        else
         {
-            direction.y = -direction.y;
-        }
-
-        if (transform.position.y < cameraY - screenHalfHeight && direction.y < 0)
-        {
-            direction.y = -direction.y;
+            var cameraY = Camera.main.transform.position.y;
+            if ((transform.position.y > cameraY + screenHalfHeight && direction.y > 0) ||
+                (transform.position.y < cameraY - screenHalfHeight && direction.y < 0))
+            {
+                direction.y = -direction.y;
+            }
         }
     }
 

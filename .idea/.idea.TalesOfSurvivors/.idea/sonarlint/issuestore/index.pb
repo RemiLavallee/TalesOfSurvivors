@@ -39,3 +39,39 @@ $Assets/Scripts/Weapons/SpinAttack.cs,9\f\9fa77b93211b507633c6a183bfed98224919e
 ,Assets/Scripts/Weapons/SpinAttackBehavior.cs,0\c\0c58e976f6a6a90f610eeea14d5b7f8e73a07e4a
 N
 Assets/Scripts/Scenes/Lobby.cs,0\a\0a27dd179d1f33b54334193da1ea9d449869de0b
+\
+,Assets/Scripts/GameState/VictoryCondition.cs,a\1\a1f34036a1f0ea38e89ce6bd0ee02b8dfa745cf3
+S
+#Assets/Scripts/Collectibles/Bomb.cs,6\c\6c2c02084c7bdb51a39d950c2c3067f1c62bc50b
+T
+$Assets/Scripts/Enemies/EnemyStats.cs,6\e\6ec98f2e00d0788d58622e1ca851da3e38beaf0f
+Y
+)Assets/Scripts/Collectibles/MagnetItem.cs,9\d\9dfe66a085c82b29133c036dc2bd6883d5187d18
+U
+%Assets/Scripts/Collectibles/ExpGem.cs,b\9\b9fd6e859551b7cdf2d9d3b5791f79279edc6d45
+_
+/Assets/Scripts/Collectibles/MagnetController.cs,0\f\0f2dd5c41b2b4683eadb87054b36464ad890bd50
+O
+Assets/Scripts/Player/Player.cs,7\0\70a1e670e81007eff8156bd1edd1a52ad04b382f
+Y
+)Assets/Scripts/Enemies/EnemyBuffAttack.cs,b\e\bebb630b593d9d3663a24ef4731e8ac9cece41d0
+W
+'Assets/Scripts/Enemies/EnemyDistance.cs,4\d\4de56125ae1d78c62e949c102006b5071e198f83
+_
+/Assets/Scripts/Enemies/EnemyScriptableObject.cs,e\5\e5857979ace89256a712627de18de0c6d39b0120
+^
+.Assets/Scripts/Enemies/EnemySkillScriptable.cs,0\b\0b80f4529156fa14c259623d3272bbdfabad5871
+O
+Assets/Scripts/Enemies/Enemy.cs,b\7\b7353f45ab629382b7da29c981fd24596005cd95
+V
+&Assets/Scripts/Enemies/EnemySpawner.cs,5\7\57392058746eab3deb3f89e7523b23c90e3025ea
+N
+Assets/Scripts/SpriteCursor.cs,c\5\c56731e3a09c262ec6543e2441f4eee1278cc0b4
+T
+$Assets/Scripts/Player/PlayerXpBar.cs,f\6\f6ae2e7bd522aefc20e0c05a864af029e64627e1
+X
+(Assets/Scripts/Collectibles/Inventory.cs,b\3\b34f7951a615bf6dcbf096eb4367bde7e9007e6e
+[
++Assets/Scripts/GameState/DefeatCondition.cs,a\c\ac0ccc345d480675d86f095c0c510bf18f4bef21
+o
+?Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs,6\0\60abfc8001d69484230153c75ada13fa4a1bb46f

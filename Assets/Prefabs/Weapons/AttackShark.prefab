@@ -196,3 +196,4 @@ MonoBehaviour:
   weaponData: {fileID: 11400000, guid: 80d48b4d2be92fc49bfab5d65f5b02bb, type: 2}
   destroyDelay: 15
   initialAngleInDegrees: 45
+  offsetY: 5

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SharkAttack Level2
   m_EditorClassIdentifier: 
   prefab: {fileID: 5195181989775172355, guid: 0eea42c048cc6f647a841acf0e6d638f, type: 3}
-  damage: 25
+  damage: 60
   speed: 20
   cooldownDuration: 20
   level: 2

@@ -57,17 +57,10 @@ public class EnemyStats : MonoBehaviour
             player.TakeDamage(currentDamage);
         }
     }
-/*
-    private void OnDestroy()
-    {
-        var enemySpawner = FindObjectOfType<EnemySpawner>();
-        enemySpawner.OnEnemyKilled();
-    }
-*/
+
     void ReturnEnemy()
     {
         var es = FindObjectOfType<EnemySpawner>();
-        transform.position = player.position +
-                             es.relativeSpawnPoints[Random.Range(0, es.relativeSpawnPoints.Count)].position;
+        transform.position = player.position + es.relativeSpawnPoints[Random.Range(0, es.relativeSpawnPoints.Count)].position;
     }
 }
