@@ -19,5 +19,5 @@ MonoBehaviour:
   level: 1
   nextLevelPrefab: {fileID: 5585617675046600236, guid: 203287d9b7651484da1fce5415ff5756, type: 3}
   name: Shark Attack
-  description: Attack that runs across the stage by making bounces on the edges.
+  description: Attack that runs across the stage by making bounces on the edges
   image: {fileID: -153406135, guid: f60a3aedf511ca44ba4edeb76ff99fb7, type: 3}

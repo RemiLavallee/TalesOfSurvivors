@@ -16,5 +16,5 @@ MonoBehaviour:
   level: 2
   nextLevelPrefab: {fileID: 0}
   name: Speed Booster Level 2
-  description: Add 10% speed.
-  image: {fileID: -1566682666, guid: 3ec8d708716e945458601f52f2e26e6a, type: 3}
+  description: Increase speed by 10%
+  image: {fileID: -1737244789, guid: 32d586439e109da45865b3bde75b1d4a, type: 3}

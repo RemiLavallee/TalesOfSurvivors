@@ -16,5 +16,5 @@ MonoBehaviour:
   level: 1
   nextLevelPrefab: {fileID: 4766779042613952585, guid: 1370742d4b76de34787e173d2b2b4d78, type: 3}
   name: Health Booster
-  description: Add 10% health.
-  image: {fileID: -864001825, guid: 3ec8d708716e945458601f52f2e26e6a, type: 3}
+  description: Increase health by 10%
+  image: {fileID: 1431138608, guid: 32d586439e109da45865b3bde75b1d4a, type: 3}

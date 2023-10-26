@@ -19,5 +19,5 @@ MonoBehaviour:
   level: 2
   nextLevelPrefab: {fileID: 0}
   name: Shark Attack Level 2
-  description: Add speed.
+  description: Increase attack speed
   image: {fileID: -153406135, guid: f60a3aedf511ca44ba4edeb76ff99fb7, type: 3}

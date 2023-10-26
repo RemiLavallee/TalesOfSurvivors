@@ -19,5 +19,5 @@ MonoBehaviour:
   level: 1
   nextLevelPrefab: {fileID: 3925434068071814474, guid: ae33702333fab244ab2d104fc329d9b6, type: 3}
   name: Spin Attack
-  description: An attack that revolves around the player.
+  description: An attack that revolves around the player
   image: {fileID: -2034376429, guid: 19780b273c19b1440b8d60eca386404c, type: 3}
