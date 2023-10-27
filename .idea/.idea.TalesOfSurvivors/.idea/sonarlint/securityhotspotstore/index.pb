@@ -73,5 +73,3 @@ X
 (Assets/Scripts/Collectibles/Inventory.cs,b\3\b34f7951a615bf6dcbf096eb4367bde7e9007e6e
 [
 +Assets/Scripts/GameState/DefeatCondition.cs,a\c\ac0ccc345d480675d86f095c0c510bf18f4bef21
-o
-?Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs,6\0\60abfc8001d69484230153c75ada13fa4a1bb46f

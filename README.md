@@ -12,5 +12,7 @@ Rémi Lavallée
 8)	Compléter
 9)	Compléter
 
+Le système de spawn pour le niveau 3 n'est pas encore adapté.
 
 J’ai suivi cette série de vidéo pour faire quelque système, tels que le spawn des ennemis et la génération de la map : Creating a Rogue-like (like Vampire Survivors) in Unity — Part 1: Movement and Camera - YouTube
+
