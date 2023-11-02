@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -11,6 +12,8 @@ public class EnemyStats : MonoBehaviour
     [HideInInspector] public  float currentMaxHealth;
     public float despawnDistance = 20f;
     private Transform player;
+    [SerializeField] private GameObject healthBar;
+    public bool IsExploded { get; set; }
 
     private void Awake()
     {
@@ -46,7 +49,15 @@ public class EnemyStats : MonoBehaviour
     {
         var enemySpawner = FindObjectOfType<EnemySpawner>();
         enemySpawner.OnEnemyKilled();
-        Destroy(gameObject);
+
+        if (IsExploded && currentHealth <= 0)
+        {
+            StartCoroutine(DestroyAfterAnimation());
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -58,9 +69,22 @@ public class EnemyStats : MonoBehaviour
         }
     }
 
-    void ReturnEnemy()
+    private void ReturnEnemy()
     {
         var es = FindObjectOfType<EnemySpawner>();
         transform.position = player.position + es.relativeSpawnPoints[Random.Range(0, es.relativeSpawnPoints.Count)].position;
     }
+    
+    private IEnumerator DestroyAfterAnimation()
+    {
+        var enemyAnimator = GetComponent<Animator>();
+        if (enemyAnimator != null)
+        {
+            healthBar.SetActive(false);
+            yield return new WaitForSeconds(0.5f);
+        }
+        
+        Destroy(gameObject);
+    }
+    
 }

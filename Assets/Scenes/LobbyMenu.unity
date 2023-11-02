@@ -2365,8 +2365,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Confirm
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c5421d755213ec9489b14c2688ce2231, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 402930260f077664e8f3ac9a63ad6ed1, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2716,8 +2716,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -164.23, y: 29}
-  m_SizeDelta: {x: 419.1198, y: 50}
+  m_AnchoredPosition: {x: -168.04005, y: 78}
+  m_SizeDelta: {x: 426.74, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &368670996
 MonoBehaviour:
@@ -2741,8 +2741,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Enter a username :'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c5421d755213ec9489b14c2688ce2231, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 402930260f077664e8f3ac9a63ad6ed1, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8752da28524c0e24aba06d71d0949555, type: 2}
+  m_sharedMaterial: {fileID: -6225594426483117900, guid: 8752da28524c0e24aba06d71d0949555, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11936,7 +11936,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Username
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8752da28524c0e24aba06d71d0949555, type: 2}
   m_sharedMaterial: {fileID: -6225594426483117900, guid: 8752da28524c0e24aba06d71d0949555, type: 2}

@@ -28,7 +28,6 @@ public class EnemySpawner : MonoBehaviour
     public List<Wave> waves;
     public int currentWaveCount;
     private Transform player;
-    public string lastWaveName;
     
     [Header("Spawn Attributes")]
     private float spawnTimer;
@@ -88,8 +87,10 @@ public class EnemySpawner : MonoBehaviour
         waves[currentWaveCount].waveQuota = currentWaveMaxCount;
     }
 
-     void SpawnEnemies()
+     private void SpawnEnemies()
      {
+         if (enemiesAlive == maxEnemiesAllowed) return;
+         
          foreach (var enemyGroup in waves[currentWaveCount].enemyGroups)
          {
              if (enemyGroup.spawnCount < enemyGroup.enemyCount && enemiesAlive < maxEnemiesAllowed)
@@ -98,9 +99,9 @@ public class EnemySpawner : MonoBehaviour
                      player.position + relativeSpawnPoints[Random.Range(0, relativeSpawnPoints.Count)].position,
                      Quaternion.identity);
 
+                 enemiesAlive++;
                  enemyGroup.spawnCount++;
                  waves[currentWaveCount].spawnCount++;
-                 enemiesAlive++;
              }
          }
 
@@ -109,7 +110,6 @@ public class EnemySpawner : MonoBehaviour
 
      public void OnEnemyKilled()
      {
-         enemiesAlive--;
-         enemiesAlive = Mathf.Max(0, enemiesAlive);
+         enemiesAlive = Mathf.Max(0, enemiesAlive -1);
      }
 }

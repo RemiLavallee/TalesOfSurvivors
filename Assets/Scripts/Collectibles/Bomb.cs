@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Bomb : MonoBehaviour, ICollectible
@@ -8,9 +6,11 @@ public class Bomb : MonoBehaviour, ICollectible
     public CircleCollider2D col;
     public SpriteRenderer sprite;
     private AudioManager audioManager;
+    private ExplodeEffect flashScreen;
 
     public void Awake()
     {
+        flashScreen = FindObjectOfType<ExplodeEffect>();
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
     
@@ -28,16 +28,29 @@ public class Bomb : MonoBehaviour, ICollectible
 
         foreach (var enemy in enemies)
         {
-            float distanceToEnemy = Vector3.Distance(transform.position, enemy.transform.position);
+            var distanceToEnemy = Vector3.Distance(transform.position, enemy.transform.position);
 
             if (distanceToEnemy <= explosionRadius)
             {
                 var enemyStats = enemy.GetComponent<EnemyStats>();
-                float maxDamage = 50f;
-                float damage = maxDamage * (1 - distanceToEnemy / explosionRadius);
+                var maxDamage = 50f;
+                var damage = maxDamage * (1 - distanceToEnemy / explosionRadius);
+                
+                if (enemyStats.currentHealth - damage <= 0)
+                {
+                    enemyStats.IsExploded = true;
+                    var enemyAnimator = enemy.GetComponent<Animator>();
+                    if (enemyAnimator != null)
+                    {
+                        enemyAnimator.SetBool("isExploded", true);
+                    }
+                }
+                
                 enemyStats.TakeDamage(damage);
                 audioManager.PlayGameSound(audioManager.bomb);
             }
         }
+        
+        if(flashScreen != null) flashScreen.StartFlash();
     }
 }

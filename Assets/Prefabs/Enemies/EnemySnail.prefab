@@ -151,7 +151,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -194,6 +194,7 @@ MonoBehaviour:
   currentHealth: 0
   currentMaxHealth: 0
   despawnDistance: 20
+  healthBar: {fileID: 7053681549000699119}
 --- !u!114 &3833606800018337256
 MonoBehaviour:
   m_ObjectHideFlags: 0

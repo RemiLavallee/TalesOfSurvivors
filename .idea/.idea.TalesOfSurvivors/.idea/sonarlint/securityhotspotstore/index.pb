@@ -73,3 +73,5 @@ X
 (Assets/Scripts/Collectibles/Inventory.cs,b\3\b34f7951a615bf6dcbf096eb4367bde7e9007e6e
 [
 +Assets/Scripts/GameState/DefeatCondition.cs,a\c\ac0ccc345d480675d86f095c0c510bf18f4bef21
+O
+Assets/Scripts/ExplodeEffect.cs,d\a\da30b200e39b2e7a411f7bdd580d1f378b4782e0
