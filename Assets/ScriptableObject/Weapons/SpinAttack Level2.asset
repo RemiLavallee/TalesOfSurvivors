@@ -20,4 +20,4 @@ MonoBehaviour:
   nextLevelPrefab: {fileID: 0}
   name: Spin Attack Level 2
   description: Increase attack speed
-  image: {fileID: -2034376429, guid: 19780b273c19b1440b8d60eca386404c, type: 3}
+  image: {fileID: 64089861, guid: 5f63ea3721042b14db10d25b5b21bb16, type: 3}

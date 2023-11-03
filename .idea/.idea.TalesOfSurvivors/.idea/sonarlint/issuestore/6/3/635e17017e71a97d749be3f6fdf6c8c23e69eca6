@@ -1,5 +1,9 @@
 
-Jcsharpsquid:S3903"-Move 'LevelUpManager' into a named namespace.(ü°”ö
-mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¿å™êùÿÿÿÿ8ÔÏˆ÷µ1
-mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¢Õ˜Şúÿÿÿÿ8àÈÍøµ1
-hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(®÷¯½8½‹ğúµ1
+Jcsharpsquid:S3903"-Move 'LevelUpManager' into a named namespace.(ü°”ö
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(²œíŞÿÿÿÿÿ8š¹À•¹1
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¿å™êùÿÿÿÿ8ÔÏˆ÷µ1
+mcsharpsquid:S1104	"DMake this field 'private' and encapsulate it in a 'public' property.(¢Õ˜Şúÿÿÿÿ8àÈÍøµ1
+hcsharpsquid:S1104
+"DMake this field 'private' and encapsulate it in a 'public' property.(®÷¯½8½‹ğúµ1
+ncsharpsquid:S2223"EChange the visibility of 'instance' or make it 'const' or 'readonly'.(²œíŞÿÿÿÿÿ8š¹À•¹1
+~csharpsquid:S2696"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(ñõîÙşÿÿÿÿ8ûÑÂ•¹1

@@ -17,7 +17,6 @@ public class PlayerStats : MonoBehaviour
     public int experienceCap;
     public float initialSpeed = 200f;
     public TextMeshProUGUI xpText;
-    public LevelUpManager levelUp;
     private AudioManager audioManager;
 
     [System.Serializable]
@@ -59,7 +58,7 @@ public class PlayerStats : MonoBehaviour
         LevelUpChecker();
     }
     
-    public void LevelUpChecker()
+    private void LevelUpChecker()
     {
         if (experience >= experienceCap)
         {
@@ -75,7 +74,7 @@ public class PlayerStats : MonoBehaviour
                 break;
             }
             experienceCap += experienceCapIncrease;
-            levelUp.LevelUp();
+            LevelUpManager.instance.LevelUp();
         }
         xpText.text = $"{experience}/{experienceCap}";
     }

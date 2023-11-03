@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea9cb4cc8d8ff8c45a84e9085969c4ee, type: 3}
   m_Name: SpeedPassiveItem
   m_EditorClassIdentifier: 
-  multipler: 1
+  multipler: 5
   level: 1
   nextLevelPrefab: {fileID: 6532417217568925645, guid: 50d268182eae89e4db9c43535c93752e, type: 3}
   name: Speed Booster
