@@ -1,0 +1,3339 @@
+fileFormatVersion: 2
+guid: 0436e8c6f791afd4d81679f7f1f19883
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 612
+        width: 129
+        height: 138
+      alignment: 9
+      pivot: {x: 0.70022714, y: 0.4116149}
+      border: {x: 0, y: 0, z: 129, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a01d32c7ca68941aa57c9267053386
+      internalID: -335822650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_1
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 633
+        width: 120
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8892784e05ea644c8e576ee30f91bc6
+      internalID: 715041954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_2
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 630
+        width: 177
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c806d5a9e1a3e44d97f42850fb835d7
+      internalID: 40083781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 443
+        width: 124
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff023a55c0d44d4c9b26414bd1c7c3b
+      internalID: 133188577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_4
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 477
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76225ff89e8767e49897c6ebd5e2d860
+      internalID: 597910426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_5
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 423
+        width: 85
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c5766398212b74b933b2344b93f164
+      internalID: 446579368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_6
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 473
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bec4a7f8b28540498b74376c21dedd9
+      internalID: -220803443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_7
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 423
+        width: 85
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e2a594ce13c8b469f0c32eb03e5820
+      internalID: -1620785836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_8
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 470
+        width: 106
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9d36cedf030514daf51b03814e6a6f
+      internalID: 2145627298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_9
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 423
+        width: 81
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d521024c4d9c1874b97c40560df5e6d9
+      internalID: -1189005510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_10
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 278
+        width: 106
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb5d4424f7436945a804df77424f84a
+      internalID: 768766747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_11
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 314
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3972320ae9e3874ca9dad028e48e7e6
+      internalID: -347575593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 231
+        width: 112
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8007b6898124fc4d817909cb71752ad
+      internalID: 582257912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_13
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 231
+        width: 112
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea5c1eed2d0b6645aeff27ebe8825ce
+      internalID: -342574094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_14
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 231
+        width: 116
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4629e6a60fa73a141a67d01c5d4aef1e
+      internalID: 209234148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_15
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 231
+        width: 115
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283e7524de4e7b043ba3f7d9f3f82610
+      internalID: 1174014951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 231
+        width: 81
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cbb055e8cab624fa3ef7e2c026908a
+      internalID: -1666131856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_17
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 151
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6725eecd7a6e31a4ebe231917bb34344
+      internalID: 1011262536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_18
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 183
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa19cf8e20440744c911b6d06c14a21f
+      internalID: -826386102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_19
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 173
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f6be10243552049b1823180ccbfe7d
+      internalID: -1076477557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_20
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 159
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40437a46279c614c947d8c16201fedb
+      internalID: -590555595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_21
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 158
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38164c813412e8b4ea4f4cb7b247fc7c
+      internalID: -1309814695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_22
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 154
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb33547dcddabf419784d2c3b7c9528
+      internalID: -2018740060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_23
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 144
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2755778fb786343b726e50cf6ff0c4
+      internalID: -1393991848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_24
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 162
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4f20533c92e5d49a5ee9a625db17b5
+      internalID: 1176010221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_25
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 153
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf6150800b955c4fa8faceaa1decd4d
+      internalID: -1939836654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_26
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 155
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26baa54f846cd994eba7bec35c401e68
+      internalID: 773761505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_27
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 160
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abca600970140143af682e8f6a67ca7
+      internalID: 1359392745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_28
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 156
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e91a24e996ad346a1106471f904a24
+      internalID: 2143152295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_29
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 122
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314a3fc45a1a5e941a702105358c6397
+      internalID: 1287943004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_30
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 143
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c4e7d8056b7b04591b1c85c2005549
+      internalID: -342643828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_31
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 145
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a43e8d4a1ec054d8158e4e01cf2a54
+      internalID: 432129596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_32
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 154
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee6f87a4491cf24f813e2f647c69b6e
+      internalID: -1291161749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_33
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 151
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eecb673f3289ca46b1ec9d89b82d0ce
+      internalID: -1841347332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_34
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 147
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2443766af53bbe409ebba8fb535f2b5
+      internalID: 993965962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_35
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 140
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d800062e5a7a8784db8c3bd1d034eb60
+      internalID: -221890272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_36
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 139
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a405892d7aba84eb85489abc0b6a73
+      internalID: 514935915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_37
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 128
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0501b2261d446469f73b238a950662
+      internalID: -825571546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_38
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 141
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0dadce999c53648a9748ea0b6c8b6a
+      internalID: -1329012954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_39
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 136
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a221e8f7866524cb9dc0d449af6bd6
+      internalID: 694194495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_40
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 145
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72bb387df48b5a44b9cbe24a05edf27
+      internalID: 1320674588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_41
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 141
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdad54306721f341b66d2137af1bb5c
+      internalID: 466914465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_42
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 139
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0f53702195d5f4f81c08d86303b234
+      internalID: 833554196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_43
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 127
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b16d7e28b918e45ae8c86590df5938
+      internalID: -313153088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_44
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 129
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a65ae3bfce67644adbaf1685907581
+      internalID: 222816915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_45
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 136
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfb3d6a1b54c3f4c85af90ed80790b0
+      internalID: 1183880937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_46
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 134
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266d31456920d434dad2df8dcf7933f7
+      internalID: 1177075937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_47
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 131
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849ee416d1bc1bd4fb6765afc0714a50
+      internalID: 184142266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_48
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 96
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbddf6d32aa3b547a4f8e43a2cf194f
+      internalID: 1645262821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_49
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 134
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc08904b0c9f3b44b28402faf9962c4
+      internalID: -1540288017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_50
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 118
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aff16a1188d03c46897696137c27ed2
+      internalID: -336779689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_51
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 129
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105be7878e8290e4e81f62efecadea64
+      internalID: 235667757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_52
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 125
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b4354ecd7ae8946a11fb200427757b
+      internalID: -1952309532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_53
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 86
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d24b91954f4246448596f6ce90a7d55
+      internalID: -267556629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_54
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 129
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd7fb9b5d592fe4b9f0fcfbf1957428
+      internalID: -150003660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_55
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 129
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbaf8d5f2d4bec4591dd4c0133dee9f
+      internalID: -100420928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_56
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 123
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd002777e8b6c84589c8f98abe8c41b
+      internalID: -14986478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_57
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 123
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7110564bf047ee0438c1b2ca7f0480db
+      internalID: -505076836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_58
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 65
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bfc1320358f9c4fa05166047af65c0
+      internalID: 346416787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_59
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 122
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a31b89b0117fdb489a50c3046fb3b08
+      internalID: 73207905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_60
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 119
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a75781d173e1c4f90af729a0dd5f00
+      internalID: 1375459159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_61
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 117
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354186c0f60ab45489f92b7659d063c8
+      internalID: 955687029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_62
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 102
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d07620a47c3ce448221d986fc6f6b7
+      internalID: -1889836424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_63
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 112
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d86980a738f304490ec38b2096bf27
+      internalID: 896271148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_64
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 122
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239d859be4201624c8a065b5163cb22e
+      internalID: -1394300807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_65
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 115
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c643a33da4b09408891c78422fbe87
+      internalID: 1959836237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_66
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 79
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ca322a943b9ab48a35f49189513478
+      internalID: 215681294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_67
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 110
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5865003f24e9f48af878e9e4f23e35
+      internalID: -434155345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_68
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 115
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c169926293842a49bbf7abc70809ca8
+      internalID: 1236054472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_69
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 92
+        width: 7
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebc684065ed6144294bce01876d23e8
+      internalID: 708131792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_70
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 106
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ef3a676d08226418f97e26662e9bae
+      internalID: -636996318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_71
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 109
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04558e3e4ce0d3441984bd1ca3b9aed2
+      internalID: 666053723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_72
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 105
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2408391b3016f3f41b2d07a9b4dc10eb
+      internalID: 573878127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_73
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 93
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12866dd3167de444192c2e99577511bc
+      internalID: 944380188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 56
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb44faa2fbcac04aa8a051744ad89c8
+      internalID: 388901088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_75
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 87
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5a30b6f7d69c74ab324529c4b09da1
+      internalID: -1798517342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_76
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 86
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22088ea5c8ee2ae48ab7872979d11697
+      internalID: -1572260471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_77
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 90
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84b7d05197970d4b9a663b141ec7773
+      internalID: 1046635934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_78
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 95
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc8f142adf4b4e49b00e9d9851fcf3d
+      internalID: -2106844796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_79
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 83
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1aea40c4ec46af4aa4c59c3b0017056
+      internalID: 1380043452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_80
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 90
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81989c2a37a8770418c79d7d79a0deda
+      internalID: -2102714911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_81
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 91
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88da087f86f42b8429f5c4be3d96b0c8
+      internalID: 482247993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_82
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 74
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a926472e772d24db5d29b65e9a2452
+      internalID: 105450996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_83
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 72
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328e90582be4ccc44999c5088d8bf85a
+      internalID: 403857017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_84
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 82
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447404fadff75fe4b946d8169c8f0e17
+      internalID: -1742666529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_85
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 84
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db55116b4267c7946965d872d7c409a7
+      internalID: 1749857086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_86
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 82
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19d8d6fdaca4904885d86742178dddf
+      internalID: 1423021390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_87
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 85
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa16f91794355e439146c32ccfc22ae
+      internalID: 509158419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_88
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 84
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dc3eb49dd9587499857d835131b9bd
+      internalID: 732453962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_89
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 41
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67215521215b12843a68b4874c2a789d
+      internalID: -1392572009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_90
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 53
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0e1412cdcb3da499134d23f92a030f
+      internalID: 1796622800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_91
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 63
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1a7b41f77456c4f864f58395b2e08f
+      internalID: 1573039983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_92
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 49
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc83af8a5014794d9bb37c9ae5ef565
+      internalID: 1843804194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_93
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 73
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d2abc85b60ee64dbf5c066367d4109
+      internalID: 1635493923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_94
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 69
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee75d70fe27d15448a4b56d5ec968702
+      internalID: -650108034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_95
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 69
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d81ff2c98051b4190c88192cc99295
+      internalID: 361771561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_96
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 59
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2a4ba42036dd0419dfcec4433ec3c6
+      internalID: 814029044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_97
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 66
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510400ace28d43a4c81b35e654001519
+      internalID: 9315702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_98
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d11ede7fe87dd438c391732aca8a71
+      internalID: 1348628649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_99
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 57
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768b1888819e8ce4e9bc2028241fd32b
+      internalID: 1922911815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_100
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 44
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91242103859a5343b9494754c01bf8c
+      internalID: -1979848302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_101
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 62
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f52cb0b873378448cbda9f992d2c67
+      internalID: -1555154617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_102
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 61
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a249d81f6ee2f1488c2eda67fec5de5
+      internalID: -1391821065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_103
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 63
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603702331816beb4a8043527bd91ae69
+      internalID: 1290474414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_104
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 65
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a0301e091dd6a4eb0141b82b9c74db
+      internalID: -520324717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_105
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 54
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee0fa1564fc8bb4298ecb99e747a065
+      internalID: -97984859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_106
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 37
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed4b7df372b3c747aa272c0c8e09c07
+      internalID: -771393858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_107
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 44
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e9b8cf9dc076b45ac4e95f57cf7228
+      internalID: 1785315629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_108
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 47
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b976dc874db8046b421cf8937d3c2f
+      internalID: -2713302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_109
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 55
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe653785ac417f4ba5cebb77f90a2b9
+      internalID: -863642029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_110
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 46
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583fa7b2af12ed242b1501c96d2ed792
+      internalID: 543082943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_111
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 51
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3a7448196d8304ca7ea16d6c111dc4
+      internalID: -1173859752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_112
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 54
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4e8e4abcf39124b844d700ba2934a8
+      internalID: -1850164724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_113
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 48
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc8d73f43075de43a9542c5d239983b
+      internalID: 1488609388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_114
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 46
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7777e5d1a024a84290e7b83a25a05b3
+      internalID: 1183681247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_115
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 41
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0080ab177274640be66dd4a67a91d8
+      internalID: -1032548495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_116
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 45
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2216a9cc312407242a5e8bdf9378870f
+      internalID: 317547762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_117
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 48
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c540dbd8093780d42b568d02ac7efb50
+      internalID: -1988772244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_118
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 29
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e06730ec1433ff48b17f051462efedc
+      internalID: 1667163252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_119
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7340d52b9441e1c4789cd6892eb235bb
+      internalID: -1043230821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_120
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 40
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cb663e32431fd489b1bd6ef4760f69
+      internalID: 1232281530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_121
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 40
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e96ae90e519a644baa47f164fdc6bef
+      internalID: -969940053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_122
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 29
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb35f6c314a6d94aaba58181d6c0e4b
+      internalID: -21261061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_123
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 35
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfaa0f20922c924292b70c9093e89e8
+      internalID: 615156281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_124
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 2
+        width: 12
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95206334e65a13b459f92e69bbaaff56
+      internalID: -614290295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_125
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 39
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e152fb56c28ff14296c92645e25aac9
+      internalID: -1139643580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_126
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 26
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bbc870a3ffcaf45a9753456b067b18
+      internalID: -1676551316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_127
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 38
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fec6abde0a04324c941e37f7aa88d67
+      internalID: -697587267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_128
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 36
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa92274d861bd584aa11a5c052231bc9
+      internalID: 637707460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_129
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 36
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d387aa2e69328e94cb0ec465da1bbd47
+      internalID: 682050270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_130
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 27
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1e330753c6aa242933015b0db22aa5
+      internalID: -640243318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_131
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 10
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6cc542fdad8bd449b876cfbbc13564
+      internalID: -581349922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_132
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 30
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f75c0f108c40e489fcd53ef2c129d2
+      internalID: -616325716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_133
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0438328f3c005a242977d1fc9c316ebd
+      internalID: 2102106488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_134
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 18
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0706a36133806b6439ee50369934bd4b
+      internalID: 584045245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_135
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 18
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32180992a084284b950596c6db97e84
+      internalID: 266318914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_136
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 15
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa230989087a44458b7d1f2332f228d
+      internalID: 2076206308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_137
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 23
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf7927d96053554187c1463fa16fdea
+      internalID: -1273639916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_138
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 13
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e109c8f74711afb47ada1f3ecd8d02f9
+      internalID: 2114282069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_139
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 14
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0c410bac6b00947910fd6aa721ad1f
+      internalID: -1292529823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_140
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 10
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b99894912e51a428eb0f9332af8fe6
+      internalID: 1810828183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_141
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 17
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9e821306435924f9983e5d43ab2ee5
+      internalID: -329816472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_142
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 2
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0f4d1dc9308fc46a448f220810a086
+      internalID: 632283921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_143
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 4
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cca2552ff7ec824da9929667f0bec36
+      internalID: -1427343002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_144
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 606
+        width: 171
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b7d1cb2da7ed34188060438c523984
+      internalID: -1690943081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Slash Special 1_145
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 604
+        width: 121
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43362370f061be47b589a099fb941f5
+      internalID: -1868026547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - RPG Maker MV - Slash Special 1_0: -335822650
+      PC Computer - RPG Maker MV - Slash Special 1_1: 715041954
+      PC Computer - RPG Maker MV - Slash Special 1_10: 768766747
+      PC Computer - RPG Maker MV - Slash Special 1_100: -1979848302
+      PC Computer - RPG Maker MV - Slash Special 1_101: -1555154617
+      PC Computer - RPG Maker MV - Slash Special 1_102: -1391821065
+      PC Computer - RPG Maker MV - Slash Special 1_103: 1290474414
+      PC Computer - RPG Maker MV - Slash Special 1_104: -520324717
+      PC Computer - RPG Maker MV - Slash Special 1_105: -97984859
+      PC Computer - RPG Maker MV - Slash Special 1_106: -771393858
+      PC Computer - RPG Maker MV - Slash Special 1_107: 1785315629
+      PC Computer - RPG Maker MV - Slash Special 1_108: -2713302
+      PC Computer - RPG Maker MV - Slash Special 1_109: -863642029
+      PC Computer - RPG Maker MV - Slash Special 1_11: -347575593
+      PC Computer - RPG Maker MV - Slash Special 1_110: 543082943
+      PC Computer - RPG Maker MV - Slash Special 1_111: -1173859752
+      PC Computer - RPG Maker MV - Slash Special 1_112: -1850164724
+      PC Computer - RPG Maker MV - Slash Special 1_113: 1488609388
+      PC Computer - RPG Maker MV - Slash Special 1_114: 1183681247
+      PC Computer - RPG Maker MV - Slash Special 1_115: -1032548495
+      PC Computer - RPG Maker MV - Slash Special 1_116: 317547762
+      PC Computer - RPG Maker MV - Slash Special 1_117: -1988772244
+      PC Computer - RPG Maker MV - Slash Special 1_118: 1667163252
+      PC Computer - RPG Maker MV - Slash Special 1_119: -1043230821
+      PC Computer - RPG Maker MV - Slash Special 1_12: 582257912
+      PC Computer - RPG Maker MV - Slash Special 1_120: 1232281530
+      PC Computer - RPG Maker MV - Slash Special 1_121: -969940053
+      PC Computer - RPG Maker MV - Slash Special 1_122: -21261061
+      PC Computer - RPG Maker MV - Slash Special 1_123: 615156281
+      PC Computer - RPG Maker MV - Slash Special 1_124: -614290295
+      PC Computer - RPG Maker MV - Slash Special 1_125: -1139643580
+      PC Computer - RPG Maker MV - Slash Special 1_126: -1676551316
+      PC Computer - RPG Maker MV - Slash Special 1_127: -697587267
+      PC Computer - RPG Maker MV - Slash Special 1_128: 637707460
+      PC Computer - RPG Maker MV - Slash Special 1_129: 682050270
+      PC Computer - RPG Maker MV - Slash Special 1_13: -342574094
+      PC Computer - RPG Maker MV - Slash Special 1_130: -640243318
+      PC Computer - RPG Maker MV - Slash Special 1_131: -581349922
+      PC Computer - RPG Maker MV - Slash Special 1_132: -616325716
+      PC Computer - RPG Maker MV - Slash Special 1_133: 2102106488
+      PC Computer - RPG Maker MV - Slash Special 1_134: 584045245
+      PC Computer - RPG Maker MV - Slash Special 1_135: 266318914
+      PC Computer - RPG Maker MV - Slash Special 1_136: 2076206308
+      PC Computer - RPG Maker MV - Slash Special 1_137: -1273639916
+      PC Computer - RPG Maker MV - Slash Special 1_138: 2114282069
+      PC Computer - RPG Maker MV - Slash Special 1_139: -1292529823
+      PC Computer - RPG Maker MV - Slash Special 1_14: 209234148
+      PC Computer - RPG Maker MV - Slash Special 1_140: 1810828183
+      PC Computer - RPG Maker MV - Slash Special 1_141: -329816472
+      PC Computer - RPG Maker MV - Slash Special 1_142: 632283921
+      PC Computer - RPG Maker MV - Slash Special 1_143: -1427343002
+      PC Computer - RPG Maker MV - Slash Special 1_144: -1690943081
+      PC Computer - RPG Maker MV - Slash Special 1_145: -1868026547
+      PC Computer - RPG Maker MV - Slash Special 1_15: 1174014951
+      PC Computer - RPG Maker MV - Slash Special 1_16: -1666131856
+      PC Computer - RPG Maker MV - Slash Special 1_17: 1011262536
+      PC Computer - RPG Maker MV - Slash Special 1_18: -826386102
+      PC Computer - RPG Maker MV - Slash Special 1_19: -1076477557
+      PC Computer - RPG Maker MV - Slash Special 1_2: 40083781
+      PC Computer - RPG Maker MV - Slash Special 1_20: -590555595
+      PC Computer - RPG Maker MV - Slash Special 1_21: -1309814695
+      PC Computer - RPG Maker MV - Slash Special 1_22: -2018740060
+      PC Computer - RPG Maker MV - Slash Special 1_23: -1393991848
+      PC Computer - RPG Maker MV - Slash Special 1_24: 1176010221
+      PC Computer - RPG Maker MV - Slash Special 1_25: -1939836654
+      PC Computer - RPG Maker MV - Slash Special 1_26: 773761505
+      PC Computer - RPG Maker MV - Slash Special 1_27: 1359392745
+      PC Computer - RPG Maker MV - Slash Special 1_28: 2143152295
+      PC Computer - RPG Maker MV - Slash Special 1_29: 1287943004
+      PC Computer - RPG Maker MV - Slash Special 1_3: 133188577
+      PC Computer - RPG Maker MV - Slash Special 1_30: -342643828
+      PC Computer - RPG Maker MV - Slash Special 1_31: 432129596
+      PC Computer - RPG Maker MV - Slash Special 1_32: -1291161749
+      PC Computer - RPG Maker MV - Slash Special 1_33: -1841347332
+      PC Computer - RPG Maker MV - Slash Special 1_34: 993965962
+      PC Computer - RPG Maker MV - Slash Special 1_35: -221890272
+      PC Computer - RPG Maker MV - Slash Special 1_36: 514935915
+      PC Computer - RPG Maker MV - Slash Special 1_37: -825571546
+      PC Computer - RPG Maker MV - Slash Special 1_38: -1329012954
+      PC Computer - RPG Maker MV - Slash Special 1_39: 694194495
+      PC Computer - RPG Maker MV - Slash Special 1_4: 597910426
+      PC Computer - RPG Maker MV - Slash Special 1_40: 1320674588
+      PC Computer - RPG Maker MV - Slash Special 1_41: 466914465
+      PC Computer - RPG Maker MV - Slash Special 1_42: 833554196
+      PC Computer - RPG Maker MV - Slash Special 1_43: -313153088
+      PC Computer - RPG Maker MV - Slash Special 1_44: 222816915
+      PC Computer - RPG Maker MV - Slash Special 1_45: 1183880937
+      PC Computer - RPG Maker MV - Slash Special 1_46: 1177075937
+      PC Computer - RPG Maker MV - Slash Special 1_47: 184142266
+      PC Computer - RPG Maker MV - Slash Special 1_48: 1645262821
+      PC Computer - RPG Maker MV - Slash Special 1_49: -1540288017
+      PC Computer - RPG Maker MV - Slash Special 1_5: 446579368
+      PC Computer - RPG Maker MV - Slash Special 1_50: -336779689
+      PC Computer - RPG Maker MV - Slash Special 1_51: 235667757
+      PC Computer - RPG Maker MV - Slash Special 1_52: -1952309532
+      PC Computer - RPG Maker MV - Slash Special 1_53: -267556629
+      PC Computer - RPG Maker MV - Slash Special 1_54: -150003660
+      PC Computer - RPG Maker MV - Slash Special 1_55: -100420928
+      PC Computer - RPG Maker MV - Slash Special 1_56: -14986478
+      PC Computer - RPG Maker MV - Slash Special 1_57: -505076836
+      PC Computer - RPG Maker MV - Slash Special 1_58: 346416787
+      PC Computer - RPG Maker MV - Slash Special 1_59: 73207905
+      PC Computer - RPG Maker MV - Slash Special 1_6: -220803443
+      PC Computer - RPG Maker MV - Slash Special 1_60: 1375459159
+      PC Computer - RPG Maker MV - Slash Special 1_61: 955687029
+      PC Computer - RPG Maker MV - Slash Special 1_62: -1889836424
+      PC Computer - RPG Maker MV - Slash Special 1_63: 896271148
+      PC Computer - RPG Maker MV - Slash Special 1_64: -1394300807
+      PC Computer - RPG Maker MV - Slash Special 1_65: 1959836237
+      PC Computer - RPG Maker MV - Slash Special 1_66: 215681294
+      PC Computer - RPG Maker MV - Slash Special 1_67: -434155345
+      PC Computer - RPG Maker MV - Slash Special 1_68: 1236054472
+      PC Computer - RPG Maker MV - Slash Special 1_69: 708131792
+      PC Computer - RPG Maker MV - Slash Special 1_7: -1620785836
+      PC Computer - RPG Maker MV - Slash Special 1_70: -636996318
+      PC Computer - RPG Maker MV - Slash Special 1_71: 666053723
+      PC Computer - RPG Maker MV - Slash Special 1_72: 573878127
+      PC Computer - RPG Maker MV - Slash Special 1_73: 944380188
+      PC Computer - RPG Maker MV - Slash Special 1_74: 388901088
+      PC Computer - RPG Maker MV - Slash Special 1_75: -1798517342
+      PC Computer - RPG Maker MV - Slash Special 1_76: -1572260471
+      PC Computer - RPG Maker MV - Slash Special 1_77: 1046635934
+      PC Computer - RPG Maker MV - Slash Special 1_78: -2106844796
+      PC Computer - RPG Maker MV - Slash Special 1_79: 1380043452
+      PC Computer - RPG Maker MV - Slash Special 1_8: 2145627298
+      PC Computer - RPG Maker MV - Slash Special 1_80: -2102714911
+      PC Computer - RPG Maker MV - Slash Special 1_81: 482247993
+      PC Computer - RPG Maker MV - Slash Special 1_82: 105450996
+      PC Computer - RPG Maker MV - Slash Special 1_83: 403857017
+      PC Computer - RPG Maker MV - Slash Special 1_84: -1742666529
+      PC Computer - RPG Maker MV - Slash Special 1_85: 1749857086
+      PC Computer - RPG Maker MV - Slash Special 1_86: 1423021390
+      PC Computer - RPG Maker MV - Slash Special 1_87: 509158419
+      PC Computer - RPG Maker MV - Slash Special 1_88: 732453962
+      PC Computer - RPG Maker MV - Slash Special 1_89: -1392572009
+      PC Computer - RPG Maker MV - Slash Special 1_9: -1189005510
+      PC Computer - RPG Maker MV - Slash Special 1_90: 1796622800
+      PC Computer - RPG Maker MV - Slash Special 1_91: 1573039983
+      PC Computer - RPG Maker MV - Slash Special 1_92: 1843804194
+      PC Computer - RPG Maker MV - Slash Special 1_93: 1635493923
+      PC Computer - RPG Maker MV - Slash Special 1_94: -650108034
+      PC Computer - RPG Maker MV - Slash Special 1_95: 361771561
+      PC Computer - RPG Maker MV - Slash Special 1_96: 814029044
+      PC Computer - RPG Maker MV - Slash Special 1_97: 9315702
+      PC Computer - RPG Maker MV - Slash Special 1_98: 1348628649
+      PC Computer - RPG Maker MV - Slash Special 1_99: 1922911815
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

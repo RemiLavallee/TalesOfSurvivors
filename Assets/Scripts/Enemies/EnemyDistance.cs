@@ -42,6 +42,7 @@ public class EnemyDistance : MonoBehaviour
             attackDirection.Normalize();
 
             var distanceAttack = Instantiate(attackPrefab, position, Quaternion.identity);
+            distanceAttack.transform.SetParent(transform);
             distanceAttack.transform.right = attackDirection;
         }
     }
