@@ -22,7 +22,8 @@ public class EnemySpawner : MonoBehaviour
         public string enemyName;
         public int enemyCount;
         public int spawnCount;
-        public GameObject enemyPrefab;
+       // public GameObject enemyPrefab;
+       public ObjectPool pool;
     }
     
     public List<Wave> waves;
@@ -95,9 +96,10 @@ public class EnemySpawner : MonoBehaviour
          {
              if (enemyGroup.spawnCount < enemyGroup.enemyCount && enemiesAlive < maxEnemiesAllowed)
              {
-                 Instantiate(enemyGroup.enemyPrefab,
-                     player.position + relativeSpawnPoints[Random.Range(0, relativeSpawnPoints.Count)].position,
-                     Quaternion.identity);
+                 var enemy = enemyGroup.pool.GetObject();
+                 enemy.transform.SetPositionAndRotation(player.position + relativeSpawnPoints[Random.Range(0, relativeSpawnPoints.Count)].position,
+                       Quaternion.identity);
+                 enemy.gameObject.SetActive(true);
 
                  enemiesAlive++;
                  enemyGroup.spawnCount++;
@@ -112,4 +114,5 @@ public class EnemySpawner : MonoBehaviour
      {
          enemiesAlive = Mathf.Max(0, enemiesAlive -1);
      }
+     
 }

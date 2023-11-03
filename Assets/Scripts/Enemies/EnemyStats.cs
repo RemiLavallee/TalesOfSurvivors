@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class EnemyStats : MonoBehaviour
+public class EnemyStats : PoolObject
 {
     public EnemyScriptableObject enemyData;
     private float currentMoveSpeed;
@@ -56,7 +56,7 @@ public class EnemyStats : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+           gameObject.SetActive(false);
         }
     }
 
@@ -84,7 +84,12 @@ public class EnemyStats : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
         }
         
-        Destroy(gameObject);
+        gameObject.SetActive(false);
+    }
+
+    public override void Reset()
+    {
+        currentHealth = currentMaxHealth;
     }
     
 }
