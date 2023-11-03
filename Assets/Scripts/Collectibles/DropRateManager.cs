@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,7 +14,7 @@ public class DropRateManager : MonoBehaviour
 
      public List<Drops> drops;
 
-     private void OnDestroy()
+     public void OnDestroy()
      {
          if (!gameObject.scene.isLoaded)
          {
@@ -39,4 +38,6 @@ public class DropRateManager : MonoBehaviour
              Instantiate(drops.itemPrefab, transform.position, Quaternion.identity);
          }
      }
+     
+    // private void DropItem()
 }

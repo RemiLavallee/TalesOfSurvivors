@@ -14,6 +14,7 @@ public class EnemyStats : PoolObject
     private Transform player;
     [SerializeField] private GameObject healthBar;
     public bool IsExploded { get; set; }
+    private DropRateManager drop;
 
     private void Awake()
     {
@@ -25,6 +26,7 @@ public class EnemyStats : PoolObject
 
     private void Start()
     {
+        drop = GetComponent<DropRateManager>();
         player = FindObjectOfType<PlayerStats>().transform;
     }
 
@@ -56,6 +58,7 @@ public class EnemyStats : PoolObject
         }
         else
         {
+            drop.OnDestroy();
            gameObject.SetActive(false);
         }
     }
@@ -84,6 +87,7 @@ public class EnemyStats : PoolObject
             yield return new WaitForSeconds(0.5f);
         }
         
+        drop.OnDestroy();
         gameObject.SetActive(false);
     }
 
