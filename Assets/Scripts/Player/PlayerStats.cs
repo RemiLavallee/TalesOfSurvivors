@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -11,7 +12,8 @@ public class PlayerStats : MonoBehaviour
     private Animator animator;
     public float maxHealth = 100f;
     public float currentHealth = 100f;
-    [Header("Experience")] 
+    
+    [Header("Leveling")] 
     public int experience = 0;
     public int level = 1;
     public int experienceCap;
@@ -151,5 +153,4 @@ public class PlayerStats : MonoBehaviour
         inventory.AddPassiveItem(passiveItemIndex, spawnedPassiveItem.GetComponent<PassiveItems>());
         passiveItemIndex++;
     }
-    
 }
