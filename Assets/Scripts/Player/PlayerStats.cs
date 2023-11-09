@@ -20,6 +20,7 @@ public class PlayerStats : MonoBehaviour
     public float initialSpeed = 200f;
     public TextMeshProUGUI xpText;
     private AudioManager audioManager;
+    [SerializeField] private TextMeshProUGUI levelCount;
 
     [System.Serializable]
     public class LevelRange
@@ -67,6 +68,7 @@ public class PlayerStats : MonoBehaviour
             audioManager.PlayGameSound(audioManager.levelUp);
             level++;
             experience -= experienceCap;
+            levelCount.text = level.ToString();
 
             var experienceCapIncrease = 0;
             foreach (var range in levelRanges)

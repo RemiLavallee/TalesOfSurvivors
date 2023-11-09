@@ -193,6 +193,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: sactx-1-2048x2048-ETC2-uicommon-006e4cbc-1536x1536_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 882
+        width: 97
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4db2b3d1b2cb045b24684dfafa27a1
+      internalID: 1125530797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-1-2048x2048-ETC2-uicommon-006e4cbc-1536x1536_5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1046
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642205479c2214045b6c1191127af905
+      internalID: 651462391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-1-2048x2048-ETC2-uicommon-006e4cbc-1536x1536_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1059
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 7, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045bc3362d2ffc04dba890f00f8d5bea
+      internalID: 2108311451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -208,6 +271,10 @@ TextureImporter:
       sactx-1-2048x2048-ETC2-uicommon-006e4cbc-1536x1536_1: 578581283
       sactx-1-2048x2048-ETC2-uicommon-006e4cbc-1536x1536_2: 1059265465
       sactx-1-2048x2048-ETC2-uicommon-006e4cbc-1536x1536_3: -27066849
+      sactx-1-2048x2048-ETC2-uicommon-006e4cbc-1536x1536_4: 1125530797
+      sactx-1-2048x2048-ETC2-uicommon-006e4cbc-1536x1536_5: 651462391
+      sactx-1-2048x2048-ETC2-uicommon-006e4cbc-1536x1536_6: 2108311451
+      sactx-1-2048x2048-ETC2-uicommon-006e4cbc-1536x1536_7: -1351667919
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

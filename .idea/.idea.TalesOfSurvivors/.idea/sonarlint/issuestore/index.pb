@@ -75,3 +75,5 @@ Z
 .Assets/Scripts/Effects/TextColorFlashEffect.cs,5\d\5d3c4774edd33a07fa97e245915edca30e8c528a
 Y
 )Assets/Scripts/Effects/TextPulseEffect.cs,1\e\1e875c2de7f13b651ec50043385434da121d16af
+T
+$Assets/Scripts/Collectibles/Coins.cs,d\5\d58e341419fdeace8c5a709bc0f01cb6d5870e3c

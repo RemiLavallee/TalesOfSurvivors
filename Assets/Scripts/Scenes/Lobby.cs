@@ -320,4 +320,9 @@ public class Lobby : MonoBehaviour
             levelName[i].SetActive(i == currentLevelIndex);
         }
     }
+
+    public void ChangeUsername()
+    {
+        usernameUI.SetActive(true);
+    }
 }
