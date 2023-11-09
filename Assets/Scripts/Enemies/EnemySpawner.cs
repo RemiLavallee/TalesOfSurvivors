@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -22,13 +23,14 @@ public class EnemySpawner : MonoBehaviour
         public string enemyName;
         public int enemyCount;
         public int spawnCount;
-       // public GameObject enemyPrefab;
-       public ObjectPool pool;
+        public ObjectPool pool;
     }
     
     public List<Wave> waves;
     public int currentWaveCount;
-    private Transform player;
+    private Transform player; 
+    private int enemyKill;
+    [SerializeField] private TextMeshProUGUI textKill;
     
     [Header("Spawn Attributes")]
     private float spawnTimer;
@@ -113,6 +115,8 @@ public class EnemySpawner : MonoBehaviour
      public void OnEnemyKilled()
      {
          enemiesAlive = Mathf.Max(0, enemiesAlive -1);
+         enemyKill++;
+         textKill.text = enemyKill.ToString();
      }
      
 }

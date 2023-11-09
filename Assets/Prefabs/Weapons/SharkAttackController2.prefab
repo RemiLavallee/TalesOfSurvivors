@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2435582236184365020}
-  - component: {fileID: 6098278771108486749}
+  - component: {fileID: 8047238078482113711}
   m_Layer: 0
   m_Name: SharkAttackController2
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6098278771108486749
+--- !u!114 &8047238078482113711
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,8 +41,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5585617675046600236}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d2fd4676bf14604caeb0d643597f30e, type: 3}
+  m_Script: {fileID: 11500000, guid: 287c36662385022479a55a6a96f503c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weaponData: {fileID: 11400000, guid: 2007fee22a46f7d4cb894bc0a28559f4, type: 2}
   currentCooldown: 0
+  parentObject: {fileID: 2435582236184365020}

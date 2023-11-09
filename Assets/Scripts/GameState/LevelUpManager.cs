@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelUpManager : MonoBehaviour
@@ -24,11 +25,20 @@ public class LevelUpManager : MonoBehaviour
 
     public void LevelUp()
     {
-        StartParticles();
-        choosingUpgrade = true;
-        levelUpUI.SetActive(true);
-        Time.timeScale = 0f;
+
         player.SendMessage("RemoveApplyUpgrades");
+        
+        if (InventoryManager.instance.AllPanelsDisabled())
+        {
+            EndLevelUp();
+        }
+        else
+        {
+            StartParticles();
+            choosingUpgrade = true;
+            levelUpUI.SetActive(true);
+            Time.timeScale = 0f;
+        }
     }
 
     public void EndLevelUp()

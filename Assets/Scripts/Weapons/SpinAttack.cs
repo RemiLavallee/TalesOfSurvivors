@@ -1,12 +1,9 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SpinAttack : WeaponController
 {
     private AudioManager audioManager;
-    
+    [SerializeField] private Transform parentObject;
 
     private void Awake()
     {
@@ -22,7 +19,7 @@ public class SpinAttack : WeaponController
     protected override void Attack()
     {
         base.Attack();
-        var spawnedSpinAttack = Instantiate(weaponData.Prefab);
+        var spawnedSpinAttack = Instantiate(weaponData.Prefab, parentObject);
         spawnedSpinAttack.transform.position = transform.position;
     }
 }

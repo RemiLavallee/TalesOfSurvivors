@@ -197,3 +197,4 @@ MonoBehaviour:
   destroyDelay: 15
   initialAngleInDegrees: 45
   offsetY: 5
+  controller: {fileID: 5585617675046600236, guid: 0a15165e65c0daa4097ec6d397b02a4e, type: 3}

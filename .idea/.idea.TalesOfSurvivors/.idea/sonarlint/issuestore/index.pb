@@ -65,3 +65,13 @@ X
 .Assets/Scripts/Collectibles/DropRateManager.cs,0\f\0fee59ad4c3866aa41f15515a612ebca1a8a0c9b
 Y
 )Assets/Scripts/Player/InventoryManager.cs,7\8\7838cb21f57939102e59346e92ccd538cd43a55e
+X
+(Assets/Scripts/Player/PlayerStatutBar.cs,d\2\d284d7720e571d691de185658bf7f2c207cc2f3b
+X
+(Assets/Scripts/Enemies/EnemyStatutBar.cs,2\c\2c5820ce9d7dc88a8617eb43f25da2a989badc3c
+Z
+*Assets/Scripts/Weapons/WeaponController.cs,7\a\7aac7119060796107be88be3718dadcc7bee6e38
+^
+.Assets/Scripts/Effects/TextColorFlashEffect.cs,5\d\5d3c4774edd33a07fa97e245915edca30e8c528a
+Y
+)Assets/Scripts/Effects/TextPulseEffect.cs,1\e\1e875c2de7f13b651ec50043385434da121d16af

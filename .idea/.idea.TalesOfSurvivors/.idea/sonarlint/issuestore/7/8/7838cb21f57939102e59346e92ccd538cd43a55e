@@ -1,21 +1,28 @@
 
-Lcsharpsquid:S3903	"/Move 'InventoryManager' into a named namespace.(ğˆ¡
-acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(®¢¨”
-fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(€¥œ½ûÿÿÿÿ
-`csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ùìU
-fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ùİáÈüÿÿÿÿ
-fcsharpsquid:S1104+"DMake this field 'private' and encapsulate it in a 'public' property.(Ê½°Ñüÿÿÿÿ
-acsharpsquid:S1104,"DMake this field 'private' and encapsulate it in a 'public' property.(Ááâ
-acsharpsquid:S1104-"DMake this field 'private' and encapsulate it in a 'public' property.(Æ¬Öë
-acsharpsquid:S1104/"DMake this field 'private' and encapsulate it in a 'public' property.(åìÕ
-acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(š ğì
-acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(“›Ï
-acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(º²Üñ
-acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¼”ÄÙ
-fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(—€›²ûÿÿÿÿ
-acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÄËùá
-fcsharpsquid:S1104$"DMake this field 'private' and encapsulate it in a 'public' property.(µµ¶ûÿÿÿÿ
-`csharpsquid:S1104%"DMake this field 'private' and encapsulate it in a 'public' property.(µæq
-`csharpsquid:S1104&"DMake this field 'private' and encapsulate it in a 'public' property.(š”ä!
-`csharpsquid:S1104'"DMake this field 'private' and encapsulate it in a 'public' property.(ÅÖş*
-acsharpsquid:S1104("DMake this field 'private' and encapsulate it in a 'public' property.(´­Â 
+Lcsharpsquid:S3903
+"/Move 'InventoryManager' into a named namespace.(ğˆ¡
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(øœÛÆ8ñâµŒ»1
+acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(®¢¨”
+fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(€¥œ½ûÿÿÿÿ
+`csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ùìU
+fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ùİáÈüÿÿÿÿ
+fcsharpsquid:S11040"DMake this field 'private' and encapsulate it in a 'public' property.(Ê½°Ñüÿÿÿÿ
+acsharpsquid:S11041"DMake this field 'private' and encapsulate it in a 'public' property.(Ááâ
+acsharpsquid:S11042"DMake this field 'private' and encapsulate it in a 'public' property.(Æ¬Öë
+acsharpsquid:S11044"DMake this field 'private' and encapsulate it in a 'public' property.(åìÕ
+acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(š ğì
+acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(“›Ï
+acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(º²Üñ
+acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¼”ÄÙ
+fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(—€›²ûÿÿÿÿ
+acsharpsquid:S1104 "DMake this field 'private' and encapsulate it in a 'public' property.(ÄËùá
+fcsharpsquid:S1104&"DMake this field 'private' and encapsulate it in a 'public' property.(µµ¶ûÿÿÿÿ
+`csharpsquid:S1104'"DMake this field 'private' and encapsulate it in a 'public' property.(µæq
+`csharpsquid:S1104("DMake this field 'private' and encapsulate it in a 'public' property.(š”ä!
+`csharpsquid:S1104)"DMake this field 'private' and encapsulate it in a 'public' property.(ÅÖş*
+acsharpsquid:S1104*"DMake this field 'private' and encapsulate it in a 'public' property.(´­Â 
+hcsharpsquid:S1104+"DMake this field 'private' and encapsulate it in a 'public' property.(ÈÜ¯8®î‹¦»1
+hcsharpsquid:S1104,"DMake this field 'private' and encapsulate it in a 'public' property.(Ì¼ª’8Ê‘¦»1
+mcsharpsquid:S1104-"DMake this field 'private' and encapsulate it in a 'public' property.(ù«Œºøÿÿÿÿ8Ê‘¦»1
+icsharpsquid:S2223"EChange the visibility of 'instance' or make it 'const' or 'readonly'.(øœÛÆ8ôâµŒ»1
+~csharpsquid:S2696:"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(ñõîÙşÿÿÿÿ8ôâµŒ»1
