@@ -77,3 +77,11 @@ Y
 )Assets/Scripts/Effects/TextPulseEffect.cs,1\e\1e875c2de7f13b651ec50043385434da121d16af
 T
 $Assets/Scripts/Collectibles/Coins.cs,d\5\d58e341419fdeace8c5a709bc0f01cb6d5870e3c
+W
+'Assets/Scripts/GameState/GameManager.cs,1\3\13cec7701cc1312550de97679b7c5a6b641c6627
+X
+(Assets/Scripts/Tilemaps/MapController.cs,b\b\bbebb792d857c9e1367f80c6635fde4aa52c0e6e
+U
+%Assets/Scripts/GameState/MenuPause.cs,8\3\83efe07c55fee8178e1c9f9596ce4197c4b9d04f
+X
+(Assets/Scripts/Scenes/SceneController.cs,8\a\8a2d37abb38335d1073dcf95ca050652570a7d67

@@ -30,7 +30,7 @@ public class EnemySpawner : MonoBehaviour
     public int currentWaveCount;
     private Transform player; 
     private int enemyKill;
-    [SerializeField] private TextMeshProUGUI textKill;
+   // [SerializeField] private TextMeshProUGUI textKill;
     
     [Header("Spawn Attributes")]
     private float spawnTimer;
@@ -44,7 +44,11 @@ public class EnemySpawner : MonoBehaviour
     [Header("Spawn position")] 
     public List<Transform> relativeSpawnPoints;
 
-     private void Start()
+    private void Awake()
+    {
+    }
+
+    private void Start()
     {
         player = FindObjectOfType<PlayerStats>().transform;
         CalculateWaveMaxCount();
@@ -116,7 +120,7 @@ public class EnemySpawner : MonoBehaviour
      {
          enemiesAlive = Mathf.Max(0, enemiesAlive -1);
          enemyKill++;
-         textKill.text = enemyKill.ToString();
+         //textKill.text = enemyKill.ToString();
      }
      
 }

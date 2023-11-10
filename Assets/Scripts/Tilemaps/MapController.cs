@@ -5,7 +5,7 @@ using Random = UnityEngine.Random;
 public class MapController : MonoBehaviour
 {
     [SerializeField] private List<GameObject> terrainChunks;
-    [SerializeField] private GameObject player;
+     private GameObject player;
     [SerializeField] private float checkerRadius;
     private Vector3 noTerrainPosition;
     [SerializeField] private LayerMask terrainMask;
@@ -38,7 +38,6 @@ public class MapController : MonoBehaviour
 
         switch (pm.movement)
         {
-            // samething (pm.movement.x > 0 && pm.movement.y == 0)
             case { x: > 0, y: 0 }:
                 ChunkCheckRight();
                 break;
@@ -160,7 +159,7 @@ public class MapController : MonoBehaviour
         
         foreach (var chunk in spawnedChunks)
         {
-            opDistance = Vector3.Distance(player.transform.position, chunk.transform.position);
+            opDistance = Vector3.Distance(pm.transform.position, chunk.transform.position);
             chunk.SetActive(opDistance <= maxOpDistance);
         }
     }

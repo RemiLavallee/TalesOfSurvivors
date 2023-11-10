@@ -3,7 +3,6 @@ using UnityEngine;
 public class SpinAttack : WeaponController
 {
     private AudioManager audioManager;
-    [SerializeField] private Transform parentObject;
 
     private void Awake()
     {
@@ -19,7 +18,7 @@ public class SpinAttack : WeaponController
     protected override void Attack()
     {
         base.Attack();
-        var spawnedSpinAttack = Instantiate(weaponData.Prefab, parentObject);
+        var spawnedSpinAttack = Instantiate(weaponData.Prefab);
         spawnedSpinAttack.transform.position = transform.position;
     }
 }

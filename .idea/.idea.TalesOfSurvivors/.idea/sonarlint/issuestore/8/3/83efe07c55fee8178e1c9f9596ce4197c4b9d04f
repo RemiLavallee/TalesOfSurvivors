@@ -1,0 +1,13 @@
+
+Ecsharpsquid:S3903"(Move 'MenuPause' into a named namespace.(ÃÈÖ¥
+fcsharpsquid:S1104	"DMake this field 'private' and encapsulate it in a 'public' property.(°†¸Òøÿÿÿÿ
+acsharpsquid:S1104
+"DMake this field 'private' and encapsulate it in a 'public' property.(÷‹ñò
+acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÉÇæ—
+acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(€Çëú
+acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ùÔöæ
+fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(©ˆû†ûÿÿÿÿ
+ccsharpsquid:S2223
+"FChange the visibility of 'gamePause' or make it 'const' or 'readonly'.(÷‹ñò
+wcsharpsquid:S2696)"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(Š§Û™øÿÿÿÿ
+rcsharpsquid:S26960"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(µ‚íû

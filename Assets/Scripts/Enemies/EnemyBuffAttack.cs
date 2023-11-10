@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyBuffAttack : MonoBehaviour
@@ -29,5 +26,4 @@ public class EnemyBuffAttack : MonoBehaviour
             player.TakeDamage(currentDamage);
         }
     }
-    
 }

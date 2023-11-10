@@ -1,10 +1,16 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class VictoryCondition : MonoBehaviour
 {
-    public EnemySpawner enemy;
+    private EnemySpawner enemy;
     public GameObject victoryUI;
+
+    public void Awake()
+    {
+        enemy = FindObjectOfType<EnemySpawner>();
+    }
 
     public void Update()
     {

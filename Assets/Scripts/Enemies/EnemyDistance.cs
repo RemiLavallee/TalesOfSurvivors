@@ -12,7 +12,6 @@ public class EnemyDistance : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         StartCoroutine(AttackCoroutine());
-
     }
     
     IEnumerator AttackCoroutine()
@@ -42,7 +41,6 @@ public class EnemyDistance : MonoBehaviour
             attackDirection.Normalize();
 
             var distanceAttack = Instantiate(attackPrefab, position, Quaternion.identity);
-            distanceAttack.transform.SetParent(transform);
             distanceAttack.transform.right = attackDirection;
         }
     }
