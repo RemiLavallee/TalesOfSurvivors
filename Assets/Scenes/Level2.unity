@@ -2863,11 +2863,11 @@ MonoBehaviour:
     - enemyName: snail
       enemyCount: 60
       spawnCount: 0
-      enemyPrefab: {fileID: 3485921136977050555, guid: 78ca2de3488b1b74db421cb1b2c8db28, type: 3}
+      pool: {fileID: 0}
     - enemyName: Mush
       enemyCount: 60
       spawnCount: 0
-      enemyPrefab: {fileID: 6459899293203038480, guid: 531bfb79f9edb93479e2f32d261fcae2, type: 3}
+      pool: {fileID: 0}
   - waveName: Wave 2
     waveQuota: 0
     spawnInterval: 1
@@ -2876,15 +2876,15 @@ MonoBehaviour:
     - enemyName: snail
       enemyCount: 100
       spawnCount: 0
-      enemyPrefab: {fileID: 3485921136977050555, guid: 78ca2de3488b1b74db421cb1b2c8db28, type: 3}
+      pool: {fileID: 0}
     - enemyName: Mush
       enemyCount: 60
       spawnCount: 0
-      enemyPrefab: {fileID: 6459899293203038480, guid: 531bfb79f9edb93479e2f32d261fcae2, type: 3}
+      pool: {fileID: 0}
     - enemyName: Buff
       enemyCount: 75
       spawnCount: 0
-      enemyPrefab: {fileID: 375487622129792865, guid: 3d68c399738f4644788e46018464df35, type: 3}
+      pool: {fileID: 0}
   - waveName: 00
     waveQuota: 0
     spawnInterval: 1
@@ -2893,17 +2893,16 @@ MonoBehaviour:
     - enemyName: snail
       enemyCount: 200
       spawnCount: 0
-      enemyPrefab: {fileID: 3485921136977050555, guid: 78ca2de3488b1b74db421cb1b2c8db28, type: 3}
+      pool: {fileID: 0}
     - enemyName: Mush
       enemyCount: 100
       spawnCount: 0
-      enemyPrefab: {fileID: 6459899293203038480, guid: 531bfb79f9edb93479e2f32d261fcae2, type: 3}
+      pool: {fileID: 0}
     - enemyName: Buff
       enemyCount: 100
       spawnCount: 0
-      enemyPrefab: {fileID: 375487622129792865, guid: 3d68c399738f4644788e46018464df35, type: 3}
+      pool: {fileID: 0}
   currentWaveCount: 0
-  lastWaveName: 00
   waveInterval: 5
   enemiesAlive: 0
   maxEnemiesReached: 0
@@ -5301,28 +5300,44 @@ MonoBehaviour:
   weaponLevels: 0000000000000000000000000000000000000000
   passiveItemLevels: 0000000000000000000000000000000000000000
   weaponUpgradeOptions:
-  - initialWeapon: {fileID: 5585617675046600236, guid: 0a15165e65c0daa4097ec6d397b02a4e, type: 3}
+  - weaponUpgradeIndex: 0
+    initialWeapon: {fileID: 5585617675046600236, guid: 0a15165e65c0daa4097ec6d397b02a4e, type: 3}
     weaponData: {fileID: 11400000, guid: 80d48b4d2be92fc49bfab5d65f5b02bb, type: 2}
-  - initialWeapon: {fileID: 3925434068071814474, guid: 5fd90b9ffebf4e74182c1f6bf0731b56, type: 3}
+  - weaponUpgradeIndex: 0
+    initialWeapon: {fileID: 3925434068071814474, guid: 5fd90b9ffebf4e74182c1f6bf0731b56, type: 3}
     weaponData: {fileID: 11400000, guid: 606b46f688e420344884a20bda2112fc, type: 2}
   passiveUpgradeOptions:
-  - initialPassiveItem: {fileID: 4766779042613952585, guid: 5302b58d52d7f0947975a7585dd75e04, type: 3}
+  - passiveItemUpgradeIndex: 0
+    initialPassiveItem: {fileID: 4766779042613952585, guid: 5302b58d52d7f0947975a7585dd75e04, type: 3}
     passiveItemData: {fileID: 11400000, guid: a2dc6a76918e84542b3d8bef1ed86b61, type: 2}
-  - initialPassiveItem: {fileID: 6532417217568925645, guid: 924b3df3846d6a24fbb688d6e5ccfd77, type: 3}
+  - passiveItemUpgradeIndex: 0
+    initialPassiveItem: {fileID: 6532417217568925645, guid: 924b3df3846d6a24fbb688d6e5ccfd77, type: 3}
     passiveItemData: {fileID: 11400000, guid: f524cf16a3bf66d4b8c395eb930bd2a7, type: 2}
   upgradeUIOptions:
   - upgradeName: {fileID: 1588175989}
     upgradeDescription: {fileID: 183678678}
     upgradeImage: {fileID: 1418088988}
     upgradeButton: {fileID: 402491822}
+    panel: {fileID: 0}
+    newUpgradeName: {fileID: 0}
+    newWeaponPanel: {fileID: 0}
+    weaponPanel: {fileID: 0}
   - upgradeName: {fileID: 829966530}
     upgradeDescription: {fileID: 1758031520}
     upgradeImage: {fileID: 1998488681}
     upgradeButton: {fileID: 31053770}
+    panel: {fileID: 0}
+    newUpgradeName: {fileID: 0}
+    newWeaponPanel: {fileID: 0}
+    weaponPanel: {fileID: 0}
   - upgradeName: {fileID: 878267368}
     upgradeDescription: {fileID: 1968199786}
     upgradeImage: {fileID: 992856719}
     upgradeButton: {fileID: 124052616}
+    panel: {fileID: 0}
+    newUpgradeName: {fileID: 0}
+    newWeaponPanel: {fileID: 0}
+    weaponPanel: {fileID: 0}
   player: {fileID: 884242957}
 --- !u!114 &884242955
 MonoBehaviour:
@@ -5375,7 +5390,7 @@ MonoBehaviour:
   experienceCap: 0
   initialSpeed: 150
   xpText: {fileID: 390471102}
-  levelUp: {fileID: 1595577181}
+  levelCount: {fileID: 0}
   levelRanges:
   - startLevel: 1
     endLevel: 5
@@ -9689,6 +9704,10 @@ MonoBehaviour:
   levelUpUI: {fileID: 1250267568}
   player: {fileID: 884242953}
   choosingUpgrade: 0
+  particles:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &1595577182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9728,7 +9747,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 743b51c56669c704db089accd6ecdbd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 460711666}
   victoryUI: {fileID: 502753816}
 --- !u!114 &1595577185
 MonoBehaviour:

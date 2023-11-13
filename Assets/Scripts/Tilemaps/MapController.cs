@@ -1,11 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 public class MapController : MonoBehaviour
 {
-    [SerializeField] private List<GameObject> terrainChunks;
-     private GameObject player;
+    [SerializeField] private List<GameObject> terrainChunks; 
+    private GameObject player;
     [SerializeField] private float checkerRadius;
     private Vector3 noTerrainPosition;
     [SerializeField] private LayerMask terrainMask;
@@ -20,6 +21,13 @@ public class MapController : MonoBehaviour
 
     private void Start()
     {
+        var playerController = FindObjectOfType<Player>();
+        if (playerController != null) 
+        {
+            player = playerController.gameObject;
+        }
+        
+        
         pm = FindObjectOfType<Player>();
     }
 
@@ -141,6 +149,7 @@ public class MapController : MonoBehaviour
     {
         var rand = Random.Range(0, terrainChunks.Count);
         latestChunk = Instantiate(terrainChunks[rand], noTerrainPosition, Quaternion.identity);
+        latestChunk.transform.SetParent(transform);
         spawnedChunks.Add(latestChunk);
     }
 
@@ -159,7 +168,7 @@ public class MapController : MonoBehaviour
         
         foreach (var chunk in spawnedChunks)
         {
-            opDistance = Vector3.Distance(pm.transform.position, chunk.transform.position);
+            opDistance = Vector3.Distance(player.transform.position, chunk.transform.position);
             chunk.SetActive(opDistance <= maxOpDistance);
         }
     }

@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class AudioManager : MonoBehaviour
 {
@@ -19,7 +16,15 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        musicSound.Play();
+        var musicObject = GameObject.FindGameObjectWithTag("LevelMusic");
+        if (musicObject != null)
+        {
+            musicSound = musicObject.GetComponent<AudioSource>();
+            if (musicSound != null)
+            {
+                musicSound.Play();
+            }
+        }
     }
 
     public void PlayGameSound(AudioClip clip)

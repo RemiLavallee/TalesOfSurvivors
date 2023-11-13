@@ -11,7 +11,7 @@ public class VictoryCondition : MonoBehaviour
     {
         enemy = FindObjectOfType<EnemySpawner>();
     }
-
+/*
     public void Update()
     {
         if (enemy.enemiesAlive == 0 && enemy.currentWaveCount == enemy.waves.Count - 1)
@@ -20,7 +20,7 @@ public class VictoryCondition : MonoBehaviour
         }
         
     }
-
+*/
     public void LevelComplete()
     {
             victoryUI.SetActive(true);

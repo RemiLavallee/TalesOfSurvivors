@@ -39,7 +39,7 @@ public class PlayerStats : MonoBehaviour
     public void Awake()
     {
         inventory = GetComponent<InventoryManager>();
-        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+//        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         if (CharachterStat.instance != null)
         {
             maxHealth += CharachterStat.instance.health;
@@ -65,7 +65,7 @@ public class PlayerStats : MonoBehaviour
     {
         if (experience >= experienceCap)
         {
-            audioManager.PlayGameSound(audioManager.levelUp);
+//            audioManager.PlayGameSound(audioManager.levelUp);
             level++;
             experience -= experienceCap;
             levelCount.text = level.ToString();
@@ -119,7 +119,7 @@ public class PlayerStats : MonoBehaviour
 
     private void MainAttack()
     {
-        audioManager.PlayGameSound(audioManager.mainAttack);
+      //  audioManager.PlayGameSound(audioManager.mainAttack);
         var mainAttack = Instantiate(mainAttackPrefab, transform.position, Quaternion.identity);
         mainAttack.transform.right = player.directionToMouse;
     }

@@ -5,6 +5,11 @@ public class SceneController : MonoBehaviour
 {
     private void Awake()
     {
-        SceneManager.LoadScene("MainLevel", LoadSceneMode.Additive);
+
+        if (GameObject.FindGameObjectWithTag("Player") == null)
+        {
+            GameManager.sceneToLoad = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene("MainLevel");
+        }
     }
 }

@@ -54,7 +54,7 @@ public class Lobby : MonoBehaviour
         if(currentLevelIndex >= 0 && currentLevelIndex < levelSceneNames.Count)
         {
             string sceneNameToLoad = levelSceneNames[currentLevelIndex];
-            SceneManager.LoadSceneAsync(sceneNameToLoad);
+            SceneManager.LoadScene(sceneNameToLoad);
         }
     }
 

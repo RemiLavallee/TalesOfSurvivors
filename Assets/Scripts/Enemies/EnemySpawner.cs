@@ -43,14 +43,16 @@ public class EnemySpawner : MonoBehaviour
 
     [Header("Spawn position")] 
     public List<Transform> relativeSpawnPoints;
-
-    private void Awake()
-    {
-    }
-
+    
     private void Start()
     {
-        player = FindObjectOfType<PlayerStats>().transform;
+        var pl = GameObject.FindGameObjectWithTag("Player");
+        if (pl != null)
+        {
+            player = pl.GetComponent<PlayerStats>().transform;
+        }
+        
+        //player = FindObjectOfType<PlayerStats>().transform;
         CalculateWaveMaxCount();
     }
 
