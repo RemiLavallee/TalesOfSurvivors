@@ -1,9 +1,19 @@
+using System;
 using UnityEngine;
 
 
 public class PlayerCamera : MonoBehaviour
 {
-    [SerializeField] private GameObject player;
+     private GameObject player;
+
+     private void Update()
+     {
+         var pl = FindObjectOfType<Player>();
+         if (pl != null) 
+         {
+             player = pl.gameObject;
+         }
+     }
 
     private void LateUpdate()
     {

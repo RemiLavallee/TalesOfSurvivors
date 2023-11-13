@@ -11924,7 +11924,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Testdsa
+  m_text: 'Test
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8752da28524c0e24aba06d71d0949555, type: 2}
   m_sharedMaterial: {fileID: -6225594426483117900, guid: 8752da28524c0e24aba06d71d0949555, type: 2}

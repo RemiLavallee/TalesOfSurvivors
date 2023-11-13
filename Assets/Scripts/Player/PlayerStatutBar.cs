@@ -9,6 +9,7 @@ public class PlayerStatutBar : MonoBehaviour
 
      private void Awake()
      {
+          playerHealth = FindObjectOfType<PlayerStats>();
           slider = GetComponent<Slider>();
      }
 
