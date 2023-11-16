@@ -154,6 +154,7 @@ GameObject:
   - component: {fileID: 2021773859426783530}
   - component: {fileID: 4707212619716644617}
   - component: {fileID: 8625807603070082745}
+  - component: {fileID: 5956902134420709301}
   m_Layer: 9
   m_Name: EnemyMush
   m_TagString: Enemy
@@ -197,7 +198,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 8b08243fec1b25145ad2a3fce0246c56, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -382,6 +383,20 @@ MonoBehaviour:
   - name: Magnet
     itemPrefab: {fileID: 1910741107384229709, guid: 19755d4ba0bd1424996840631cd57a6e, type: 3}
     dropRate: 1
+--- !u!114 &5956902134420709301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6459899293203038480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9e8d988c2cad3428a8b8136965c2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashColor: {r: 1, g: 0, b: 0, a: 0}
+  flashTime: 0.2
 --- !u!1 &7922250065890817481
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,7 +430,7 @@ RectTransform:
   m_Father: {fileID: 7011695271880362434}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.818, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -474,7 +489,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8506585208071718471
 RectTransform:
   m_ObjectHideFlags: 0

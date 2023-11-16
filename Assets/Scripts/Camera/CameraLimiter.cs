@@ -6,7 +6,7 @@ public class CameraLimiter : MonoBehaviour
     [SerializeField] private float minY = -1f, maxY = 1f;
     [SerializeField] private float minX, maxX;
     [SerializeField]private Transform target;
-    [SerializeField] private Camera camera;
+    [SerializeField] private Camera mainCamera;
 
     private void Awake()
     {
@@ -30,7 +30,7 @@ public class CameraLimiter : MonoBehaviour
         
         var yPosition = Mathf.Clamp(target.position.y, minY, maxY);
 
-        camera.transform.position = new Vector3(xPosition, yPosition, -10f);
+        mainCamera.transform.position = new Vector3(xPosition, yPosition, -10f);
     }
     
     void FindCameraInScene(string sceneName)
@@ -43,7 +43,7 @@ public class CameraLimiter : MonoBehaviour
                 var cam = obj.GetComponentInChildren<Camera>();
                 if (cam != null)
                 {
-                    camera = cam;
+                    mainCamera = cam;
                     break;
                 }
             }

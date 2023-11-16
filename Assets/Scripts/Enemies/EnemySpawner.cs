@@ -52,7 +52,6 @@ public class EnemySpawner : MonoBehaviour
             player = pl.GetComponent<PlayerStats>().transform;
         }
         
-        //player = FindObjectOfType<PlayerStats>().transform;
         CalculateWaveMaxCount();
     }
 
@@ -122,7 +121,5 @@ public class EnemySpawner : MonoBehaviour
      {
          enemiesAlive = Mathf.Max(0, enemiesAlive -1);
          enemyKill++;
-         //textKill.text = enemyKill.ToString();
      }
-     
 }

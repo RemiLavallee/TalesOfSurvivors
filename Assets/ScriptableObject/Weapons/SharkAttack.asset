@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SharkAttack
   m_EditorClassIdentifier: 
   prefab: {fileID: 5195181989775172355, guid: 0eea42c048cc6f647a841acf0e6d638f, type: 3}
-  damage: 60
+  damage: 10
   speed: 15
   cooldownDuration: 20
   level: 1

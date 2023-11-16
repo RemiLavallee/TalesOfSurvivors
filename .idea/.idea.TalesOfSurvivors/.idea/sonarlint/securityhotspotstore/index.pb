@@ -103,3 +103,9 @@ W
 'Assets/Scripts/Player/CharachterStat.cs,3\2\32459797c00618dac34ee3f19f3198759d0c3e3d
 Q
 !Assets/Scripts/Scenes/MainMenu.cs,c\f\cf614e60765c4ed57e0adeac2e037b908d9647f4
+V
+&Assets/Scripts/Camera/CameraLimiter.cs,d\9\d98d9ada128f793b7c53cc274cec5ea3329b5d9a
+U
+%Assets/Scripts/Effects/DamageFlash.cs,6\4\64367585881941a34327c01fdf6ff80e52a958a9
+V
+&Assets/Scripts/Canvas/ExplodeEffect.cs,b\9\b97fbcfc226d5aead4380b64e0dce1bb2eec776f

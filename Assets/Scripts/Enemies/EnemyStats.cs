@@ -15,6 +15,8 @@ public class EnemyStats : PoolObject
     [SerializeField] private GameObject healthBar;
     public bool IsExploded { get; set; }
     private DropRateManager drop;
+    private DamageFlash damageFlash;
+    private Animator animator;
 
     private void Awake()
     {
@@ -28,6 +30,8 @@ public class EnemyStats : PoolObject
     {
         drop = GetComponent<DropRateManager>();
         player = FindObjectOfType<PlayerStats>().transform;
+        damageFlash = GetComponent<DamageFlash>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -44,7 +48,11 @@ public class EnemyStats : PoolObject
         if (currentHealth <= 0)
         {
             Kill();
+            return;
         }
+
+        animator.SetTrigger("isHit");
+        damageFlash.CallHitFlash();
     }
 
     private void Kill()

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SpinAttack Level2
   m_EditorClassIdentifier: 
   prefab: {fileID: 2053471844893721340, guid: f4d1dcb8386beb74eb8857f8ee6f5c0a, type: 3}
-  damage: 60
+  damage: 20
   speed: 300
   cooldownDuration: 10
   level: 2
