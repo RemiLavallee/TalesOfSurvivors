@@ -2,11 +2,12 @@
 Mcsharpsquid:S3903"+Move 'EnemySpawner' into a named namespace.(Æ¸íıÿÿÿÿ
 fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(Öşçáıÿÿÿÿ
 acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ì—¼ 
-fcsharpsquid:S1104%"DMake this field 'private' and encapsulate it in a 'public' property.(Ïë•Åüÿÿÿÿ
-acsharpsquid:S1104&"DMake this field 'private' and encapsulate it in a 'public' property.(ˆ¬¥¢
-`csharpsquid:S1104'"DMake this field 'private' and encapsulate it in a 'public' property.( ¾Y
-fcsharpsquid:S1104("DMake this field 'private' and encapsulate it in a 'public' property.(û˜»õøÿÿÿÿ
-acsharpsquid:S1104-"DMake this field 'private' and encapsulate it in a 'public' property.(ß¯ùâ
+mcsharpsquid:S1104 "DMake this field 'private' and encapsulate it in a 'public' property.(—½¸‘ûÿÿÿÿ8°Î¤¿1
+fcsharpsquid:S1104$"DMake this field 'private' and encapsulate it in a 'public' property.(Ïë•Åüÿÿÿÿ
+acsharpsquid:S1104%"DMake this field 'private' and encapsulate it in a 'public' property.(ˆ¬¥¢
+`csharpsquid:S1104&"DMake this field 'private' and encapsulate it in a 'public' property.( ¾Y
+fcsharpsquid:S1104'"DMake this field 'private' and encapsulate it in a 'public' property.(û˜»õøÿÿÿÿ
+acsharpsquid:S1104,"DMake this field 'private' and encapsulate it in a 'public' property.(ß¯ùâ
 fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(³Š¢Ìÿÿÿÿÿ
 acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(™À‹ç
 fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(°úÛúÿÿÿÿ
@@ -16,4 +17,3 @@ fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'publi
 fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ĞÈçıøÿÿÿÿ
 acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(™¡©¦
 hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(èã8—¥‡ª¹1
-Bcsharpsquid:S125!"Remove this commented out code.(§ÚÌÈ8Ô¶âÕ»1

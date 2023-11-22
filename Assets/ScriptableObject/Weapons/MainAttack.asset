@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MainAttack
   m_EditorClassIdentifier: 
   prefab: {fileID: 2182861352958708135, guid: ce831dee6c77aea489d932b7c8e02fea, type: 3}
-  damage: 10
+  damage: 25
   speed: 0
   cooldownDuration: 0
   level: 1

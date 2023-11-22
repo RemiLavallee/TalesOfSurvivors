@@ -38,6 +38,7 @@ public class EnemyDistance : MonoBehaviour
         {
             var position = transform.position;
             var attackDirection = playerPosition - position;
+            attackDirection.z = 0f;
             attackDirection.Normalize();
 
             var distanceAttack = Instantiate(attackPrefab, position, Quaternion.identity);

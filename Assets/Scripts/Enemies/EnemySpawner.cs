@@ -29,8 +29,7 @@ public class EnemySpawner : MonoBehaviour
     public List<Wave> waves;
     public int currentWaveCount;
     private Transform player; 
-    private int enemyKill;
-   // [SerializeField] private TextMeshProUGUI textKill;
+    public int enemyKill;
     
     [Header("Spawn Attributes")]
     private float spawnTimer;
@@ -51,7 +50,7 @@ public class EnemySpawner : MonoBehaviour
         {
             player = pl.GetComponent<PlayerStats>().transform;
         }
-        
+
         CalculateWaveMaxCount();
     }
 

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3315b332606103e4f80e623eea45cf2f, type: 3}
   m_Name: EnemyBuff
   m_EditorClassIdentifier: 
-  moveSpeed: 100
+  moveSpeed: 75
   maxHealth: 60
   damage: 1
   currentHealth: 40
