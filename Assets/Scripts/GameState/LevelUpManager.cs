@@ -10,6 +10,8 @@ public class LevelUpManager : MonoBehaviour
     public GameObject player;
     public bool choosingUpgrade;
     [SerializeField] private ParticleSystem[] particles = new ParticleSystem[3];
+    private ShaderBarXp shaderBar;
+    private PlayerStats levelUp;
 
     private void Awake()
     {
@@ -21,6 +23,12 @@ public class LevelUpManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private void Start()
+    {
+        shaderBar = FindObjectOfType<ShaderBarXp>();
+        levelUp = FindObjectOfType<PlayerStats>();
     }
 
     public void LevelUp()
@@ -37,6 +45,7 @@ public class LevelUpManager : MonoBehaviour
             StartParticles();
             choosingUpgrade = true;
             levelUpUI.SetActive(true);
+            shaderBar.SetActiveBarShader();
             Time.timeScale = 0f;
         }
     }
@@ -47,6 +56,8 @@ public class LevelUpManager : MonoBehaviour
         choosingUpgrade = false;
         levelUpUI.SetActive(false);
         Time.timeScale = 1f;
+        shaderBar.SetInactiveBarShader();
+        levelUp.EndLevelChecker();
     }
     
     private void StartParticles()

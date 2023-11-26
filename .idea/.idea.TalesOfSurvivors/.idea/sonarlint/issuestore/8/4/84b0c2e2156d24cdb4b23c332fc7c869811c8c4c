@@ -1,0 +1,5 @@
+
+Kcsharpsquid:S3903".Move 'LoadAndSaveData' into a named namespace.(ž“ÿ²
+acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(Ö’ýÁ
+bcsharpsquid:S2223"EChange the visibility of 'instance' or make it 'const' or 'readonly'.(Ö’ýÁ
+wcsharpsquid:S2696"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(ñõîÙþÿÿÿÿ

@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -9,7 +8,7 @@ public class EnemyStats : PoolObject
     private float currentMoveSpeed;
     [HideInInspector] public float currentHealth;
     private float currentDamage;
-    [HideInInspector] public  float currentMaxHealth;
+    [HideInInspector] public float currentMaxHealth;
     public float despawnDistance = 20f;
     private Transform player;
     [SerializeField] private GameObject healthBar;
@@ -17,6 +16,7 @@ public class EnemyStats : PoolObject
     private DropRateManager drop;
     private DamageFlash damageFlash;
     private Animator animator;
+    private EnemySpawner enemySpawner;
 
     private void Awake()
     {
@@ -32,6 +32,7 @@ public class EnemyStats : PoolObject
         player = FindObjectOfType<PlayerStats>().transform;
         damageFlash = GetComponent<DamageFlash>();
         animator = GetComponent<Animator>();
+        enemySpawner = FindObjectOfType<EnemySpawner>();
     }
 
     private void Update()
@@ -50,25 +51,21 @@ public class EnemyStats : PoolObject
             Kill();
             return;
         }
-
+        
         animator.SetTrigger("isHit");
         damageFlash.CallHitFlash();
     }
 
     private void Kill()
     {
-        var enemySpawner = FindObjectOfType<EnemySpawner>();
-        enemySpawner.OnEnemyKilled();
-
         if (IsExploded && currentHealth <= 0)
         {
             StartCoroutine(DestroyAfterAnimation());
         }
-        else
-        {
-            drop.OnDestroy();
-           gameObject.SetActive(false);
-        }
+        
+        drop.OnDestroy();
+        gameObject.SetActive(false);
+        enemySpawner.OnEnemyKilled();
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -83,25 +80,21 @@ public class EnemyStats : PoolObject
     private void ReturnEnemy()
     {
         var es = FindObjectOfType<EnemySpawner>();
-        transform.position = player.position + es.relativeSpawnPoints[Random.Range(0, es.relativeSpawnPoints.Count)].position;
+        transform.position = player.position +
+                             es.relativeSpawnPoints[Random.Range(0, es.relativeSpawnPoints.Count)].position;
     }
-    
+
     private IEnumerator DestroyAfterAnimation()
     {
         var enemyAnimator = GetComponent<Animator>();
         if (enemyAnimator != null)
         {
-            healthBar.SetActive(false);
             yield return new WaitForSeconds(0.5f);
         }
-        
-        drop.OnDestroy();
-        gameObject.SetActive(false);
     }
 
     public override void Reset()
     {
         currentHealth = currentMaxHealth;
     }
-    
 }

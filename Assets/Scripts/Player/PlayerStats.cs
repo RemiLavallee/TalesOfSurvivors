@@ -12,9 +12,8 @@ public class PlayerStats : MonoBehaviour
     private Animator animator;
     public float maxHealth = 100f;
     public float currentHealth = 100f;
-    
-    [Header("Leveling")] 
-    public int experience = 0;
+
+    [Header("Leveling")] public int experience = 0;
     public int level = 1;
     public int experienceCap;
     public float initialSpeed = 200f;
@@ -39,7 +38,7 @@ public class PlayerStats : MonoBehaviour
     public void Awake()
     {
         inventory = GetComponent<InventoryManager>();
-//        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         if (CharachterStat.instance != null)
         {
             maxHealth += CharachterStat.instance.health;
@@ -60,29 +59,36 @@ public class PlayerStats : MonoBehaviour
         experience += amount;
         LevelUpChecker();
     }
-    
+
     private void LevelUpChecker()
     {
         if (experience >= experienceCap)
         {
-//            audioManager.PlayGameSound(audioManager.levelUp);
+            audioManager.PlayGameSound(audioManager.levelUp);
             level++;
-            experience -= experienceCap;
-            levelCount.text = level.ToString();
-
-            var experienceCapIncrease = 0;
-            foreach (var range in levelRanges)
-            {
-                if (level < range.startLevel || level > range.endLevel) continue;
-                experienceCapIncrease = range.experienceCapIncrease;
-                break;
-            }
-            experienceCap += experienceCapIncrease;
             LevelUpManager.instance.LevelUp();
         }
+        
         xpText.text = $"{experience}/{experienceCap}";
     }
-    
+
+    public void EndLevelChecker()
+    {
+        experience -= experienceCap;
+        levelCount.text = level.ToString();
+
+        var experienceCapIncrease = 0;
+        foreach (var range in levelRanges)
+        {
+            if (level < range.startLevel || level > range.endLevel) continue;
+            experienceCapIncrease = range.experienceCapIncrease;
+            break;
+        }
+        
+        experienceCap += experienceCapIncrease;
+        xpText.text = $"{experience}/{experienceCap}";
+    }
+
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
@@ -90,7 +96,7 @@ public class PlayerStats : MonoBehaviour
         {
             currentHealth = 0;
         }
-        
+
         if (currentHealth <= 0)
         {
             Death();
@@ -119,11 +125,11 @@ public class PlayerStats : MonoBehaviour
 
     private void MainAttack()
     {
-      //  audioManager.PlayGameSound(audioManager.mainAttack);
+        audioManager.PlayGameSound(audioManager.mainAttack);
         var mainAttack = Instantiate(mainAttackPrefab, transform.position, Quaternion.identity);
         mainAttack.transform.right = player.directionToMouse;
     }
-    
+
     public void Stop()
     {
         Time.timeScale = 0;
@@ -135,7 +141,7 @@ public class PlayerStats : MonoBehaviour
         player.enabled = false;
         CancelInvoke("MainAttack");
         player.GetComponent<Player>().enabled = false;
-        player.rb.velocity = new Vector3(0,0,0);
+        player.rb.velocity = new Vector3(0, 0, 0);
         var playerCollider = player.GetComponent<BoxCollider2D>();
         playerCollider.isTrigger = true;
     }
@@ -147,7 +153,7 @@ public class PlayerStats : MonoBehaviour
         inventory.AddWeapon(weaponIndex, spawnedWeapon.GetComponent<WeaponController>());
         weaponIndex++;
     }
-    
+
     public void SpawnPassiveItem(GameObject passiveItem)
     {
         var spawnedPassiveItem = Instantiate(passiveItem, transform.position, Quaternion.identity);

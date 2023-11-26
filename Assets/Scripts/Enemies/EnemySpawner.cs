@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -100,7 +99,7 @@ public class EnemySpawner : MonoBehaviour
          
          foreach (var enemyGroup in waves[currentWaveCount].enemyGroups)
          {
-             if (enemyGroup.spawnCount < enemyGroup.enemyCount && enemiesAlive < maxEnemiesAllowed)
+             if (enemyGroup.spawnCount < enemyGroup.enemyCount && enemiesAlive <= maxEnemiesAllowed)
              {
                  var enemy = enemyGroup.pool.GetObject();
                  enemy.transform.SetPositionAndRotation(player.position + relativeSpawnPoints[Random.Range(0, relativeSpawnPoints.Count)].position,
@@ -111,9 +110,9 @@ public class EnemySpawner : MonoBehaviour
                  enemyGroup.spawnCount++;
                  waves[currentWaveCount].spawnCount++;
              }
+             
+             maxEnemiesReached = enemiesAlive == maxEnemiesAllowed;
          }
-
-         maxEnemiesReached = (enemiesAlive >= maxEnemiesAllowed);
      }
 
      public void OnEnemyKilled()

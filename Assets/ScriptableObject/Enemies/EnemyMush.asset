@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: EnemyMush
   m_EditorClassIdentifier: 
   moveSpeed: 75
-  maxHealth: 60
+  maxHealth: 75
   damage: 1
   currentHealth: 40
