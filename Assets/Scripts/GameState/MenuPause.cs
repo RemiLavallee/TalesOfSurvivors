@@ -86,4 +86,6 @@ public class MenuPause : MonoBehaviour
         gameSoundSlider.value = PlayerPrefs.GetFloat("gameSoundVolume");
         AdjustMusicVolume();
     }
+    
+    
 }

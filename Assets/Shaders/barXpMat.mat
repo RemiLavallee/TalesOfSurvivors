@@ -54,7 +54,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _UnscaledTime: 45.34822
+    - _UnscaledTime: 25.290089
     - _Value: 0
     - _isActive: 0
     m_Colors: []

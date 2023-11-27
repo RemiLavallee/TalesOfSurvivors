@@ -49,6 +49,7 @@ public class EnemyStats : PoolObject
         if (currentHealth <= 0)
         {
             Kill();
+            gameObject.SetActive(false);
             return;
         }
         
@@ -61,10 +62,10 @@ public class EnemyStats : PoolObject
         if (IsExploded && currentHealth <= 0)
         {
             StartCoroutine(DestroyAfterAnimation());
+            gameObject.SetActive(false);
         }
         
         drop.OnDestroy();
-        gameObject.SetActive(false);
         enemySpawner.OnEnemyKilled();
     }
 
