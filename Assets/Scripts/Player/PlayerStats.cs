@@ -6,20 +6,23 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    [SerializeField] private GameObject mainAttackPrefab;
+    //[SerializeField] private GameObject mainAttackPrefab;
     public Player player;
     public GameObject healthBar;
     private Animator animator;
-    public float maxHealth = 100f;
-    public float currentHealth = 100f;
+    public float maxHealth;
+    public float currentHealth;
+    [SerializeField] private CharacterScriptableObject characterData;
+    //[SerializeField] private CharachterStat stats;
 
     [Header("Leveling")] public int experience = 0;
     public int level = 1;
     public int experienceCap;
-    public float initialSpeed = 200f;
+    public float initialSpeed;
     public TextMeshProUGUI xpText;
     private AudioManager audioManager;
     [SerializeField] private TextMeshProUGUI levelCount;
+    private GameObject playerColor;
 
     [System.Serializable]
     public class LevelRange
@@ -37,14 +40,10 @@ public class PlayerStats : MonoBehaviour
 
     public void Awake()
     {
+        characterData = CharacterSelector.GetData();
+        CharacterSelector.instance.DestroySingleton();
         inventory = GetComponent<InventoryManager>();
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
-        if (CharachterStat.instance != null)
-        {
-            maxHealth += CharachterStat.instance.health;
-            currentHealth = maxHealth;
-            initialSpeed += CharachterStat.instance.speed;
-        }
     }
 
     private void Start()
@@ -52,6 +51,22 @@ public class PlayerStats : MonoBehaviour
         animator = GetComponent<Animator>();
         experienceCap = levelRanges[0].experienceCapIncrease;
         InvokeRepeating("MainAttack", 1f, 1f);
+        if (player != null && characterData != null)
+        {
+            SpriteRenderer spriteRenderer = player.GetComponent<SpriteRenderer>();
+            if (spriteRenderer != null)
+            {
+                spriteRenderer.color = characterData.SpriteColor;
+            }
+        }
+        
+        if (CharachterStat.instance != null)
+        {
+            maxHealth = CharachterStat.instance.health + characterData.MaxHealth;
+            currentHealth = maxHealth;
+            initialSpeed = CharachterStat.instance.speed + characterData.MoveSpeed;
+        }
+        
     }
 
     public void IncreaseExperience(int amount)
@@ -126,7 +141,7 @@ public class PlayerStats : MonoBehaviour
     private void MainAttack()
     {
         audioManager.PlayGameSound(audioManager.mainAttack);
-        var mainAttack = Instantiate(mainAttackPrefab, transform.position, Quaternion.identity);
+        var mainAttack = Instantiate(characterData.Weapon, transform.position, Quaternion.identity);
         mainAttack.transform.right = player.directionToMouse;
     }
 

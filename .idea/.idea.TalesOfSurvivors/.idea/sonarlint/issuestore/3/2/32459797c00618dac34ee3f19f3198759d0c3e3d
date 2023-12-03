@@ -1,11 +1,10 @@
 
-Ocsharpsquid:S3903"-Move 'CharachterStat' into a named namespace.(™»±Ãúÿÿÿÿ
-acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ï¡²÷
-fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¥ğ‡ğøÿÿÿÿ
-fcsharpsquid:S1104	"DMake this field 'private' and encapsulate it in a 'public' property.(€³Üšşÿÿÿÿ
-fcsharpsquid:S1104
-"DMake this field 'private' and encapsulate it in a 'public' property.(ÁüÖÅùÿÿÿÿ
-fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÀŒ‚ëşÿÿÿÿ
-acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(°ìº
-bcsharpsquid:S2223"EChange the visibility of 'instance' or make it 'const' or 'readonly'.(°ìº
-wcsharpsquid:S2696"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(ñõîÙşÿÿÿÿ
+Ocsharpsquid:S3903"-Move 'CharachterStat' into a named namespace.(™»±Ãúÿÿÿÿ
+acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ï¡²÷
+fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¥ğ‡ğøÿÿÿÿ
+fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(€³Üšşÿÿÿÿ
+fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÁüÖÅùÿÿÿÿ
+fcsharpsquid:S1104	"DMake this field 'private' and encapsulate it in a 'public' property.(ÀŒ‚ëşÿÿÿÿ
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(°ìº8…©›Â1
+icsharpsquid:S2223"EChange the visibility of 'instance' or make it 'const' or 'readonly'.(°ìº8…©›Â1
+~csharpsquid:S2696"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(ñõîÙşÿÿÿÿ8…©›Â1

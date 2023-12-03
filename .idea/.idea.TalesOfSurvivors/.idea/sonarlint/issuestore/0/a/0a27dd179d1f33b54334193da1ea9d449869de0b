@@ -21,11 +21,13 @@ fcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'publi
 acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ôõêÏ
 acsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ÏĞÇõ
 fcsharpsquid:S1104!"DMake this field 'private' and encapsulate it in a 'public' property.(Åä“ùÿÿÿÿ
-acsharpsquid:S1104."DMake this field 'private' and encapsulate it in a 'public' property.(ÿ‘£
-fcsharpsquid:S1104/"DMake this field 'private' and encapsulate it in a 'public' property.(ƒ°–Ğüÿÿÿÿ
-acsharpsquid:S1104'"DMake this field 'private' and encapsulate it in a 'public' property.(ˆ¡èß
-fcsharpsquid:S1104("DMake this field 'private' and encapsulate it in a 'public' property.(¤¤èÆÿÿÿÿÿ
-fcsharpsquid:S1104)"DMake this field 'private' and encapsulate it in a 'public' property.(šúè¨ÿÿÿÿÿ
-acsharpsquid:S1104*"DMake this field 'private' and encapsulate it in a 'public' property.(ãÒÂÀ
-`csharpsquid:S1104+"DMake this field 'private' and encapsulate it in a 'public' property.(Õ½°r
+mcsharpsquid:S1104""DMake this field 'private' and encapsulate it in a 'public' property.(°ÇİÏşÿÿÿÿ8€ÿ†Ã1
+mcsharpsquid:S1104#"DMake this field 'private' and encapsulate it in a 'public' property.(’ÿ¿òşÿÿÿÿ8à€‡Ã1
+acsharpsquid:S11041"DMake this field 'private' and encapsulate it in a 'public' property.(ÿ‘£
+fcsharpsquid:S11042"DMake this field 'private' and encapsulate it in a 'public' property.(ƒ°–Ğüÿÿÿÿ
+acsharpsquid:S1104*"DMake this field 'private' and encapsulate it in a 'public' property.(ˆ¡èß
+fcsharpsquid:S1104+"DMake this field 'private' and encapsulate it in a 'public' property.(¤¤èÆÿÿÿÿÿ
+fcsharpsquid:S1104,"DMake this field 'private' and encapsulate it in a 'public' property.(šúè¨ÿÿÿÿÿ
+acsharpsquid:S1104-"DMake this field 'private' and encapsulate it in a 'public' property.(ãÒÂÀ
+`csharpsquid:S1104."DMake this field 'private' and encapsulate it in a 'public' property.(Õ½°r
 tcsharpsquid:S1450"WRemove the field 'username' and declare it as a local variable in the relevant methods.(©ş×Ø

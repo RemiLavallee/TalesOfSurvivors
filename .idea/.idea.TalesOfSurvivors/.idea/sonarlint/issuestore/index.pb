@@ -117,7 +117,9 @@ U
 %Assets/Scripts/Effects/ShaderBarXp.cs,3\b\3bf8da842514960247acef775598ded75cf1ae71
 _
 /Assets/Scripts/PostProcessing/PostProcessing.cs,f\4\f498704988934e6c1b4f44d3349392e5b8002ae9
-g
-7Assets/Scripts/PostProcessing/PostProcessingVignette.cs,2\f\2fa569bcb19cba87da7fe6cdc46a54d32baf0683
 b
 2Assets/Scripts/PostProcessing/SetPostProcessing.cs,0\c\0c1bf62217871aaf6f0bd6335e26876c76f9b4e1
+b
+2Assets/Scripts/Player/CharacterScriptableObject.cs,f\6\f6e2fb76f56f93c7d1c9f499a561b0389834ea0c
+Z
+*Assets/Scripts/Scenes/CharacterSelector.cs,b\8\b8a2636676b04de024d45280599e52b8a064c2df

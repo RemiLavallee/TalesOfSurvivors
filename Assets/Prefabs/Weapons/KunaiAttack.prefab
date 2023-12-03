@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4651806269628384535}
   - component: {fileID: -8989870912756396656}
   m_Layer: 0
-  m_Name: MainAttack
+  m_Name: KunaiAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -415145552, guid: f8f849606fcd4fe4ba962653ab431c3a, type: 3}
+  m_Sprite: {fileID: 416281329, guid: 5f63ea3721042b14db10d25b5b21bb16, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dc1cf685e6ab384cb1bdd2ea45db0b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillData: {fileID: 11400000, guid: 488385f3e3707234e9655d650b7d44a0, type: 2}
+  skillData: {fileID: 11400000, guid: d77db38eaf5f89049bd99e8573ef583e, type: 2}
   destroyDelay: 0.45
 --- !u!95 &3182232728053868645
 Animator:
@@ -110,7 +110,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2182861352958708135}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 1944fcfcfc4c8b748a009445a8e16780, type: 2}
   m_CullingMode: 0
@@ -159,7 +159,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.796875, y: 0.28125}
+    oldSize: {x: 0.84375, y: 0.578125}
     newSize: {x: 1.078125, y: 1.53125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -167,24 +167,15 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.8671875, y: -0.234375}
-      - {x: 0.8671875, y: 0.296875}
-      - {x: 0.7890625, y: 0.46875}
-      - {x: 0.6171875, y: 0.65625}
-      - {x: 0.3984375, y: 0.78125}
-      - {x: 0.2734375, y: 0.78125}
-      - {x: 0.3046875, y: 0.703125}
-      - {x: 0.4296875, y: 0.34375}
-      - {x: 0.1328125, y: -0.390625}
-      - {x: -0.2421875, y: -0.515625}
-      - {x: -0.8671875, y: -0.421875}
-      - {x: -0.8671875, y: -0.546875}
-      - {x: -0.6484375, y: -0.71875}
-      - {x: -0.4140625, y: -0.78125}
-      - {x: 0.1953125, y: -0.78125}
-      - {x: 0.4140625, y: -0.71875}
-      - {x: 0.6015625, y: -0.59375}
-      - {x: 0.8359375, y: -0.328125}
+    - - {x: 0.140625, y: 0.1171875}
+      - {x: -0.28125, y: 0.1171875}
+      - {x: -0.40625, y: 0.0390625}
+      - {x: -0.40625, y: -0.0234375}
+      - {x: -0.265625, y: -0.0859375}
+      - {x: 0.28125, y: -0.0859375}
+      - {x: 0.40625, y: -0.0234375}
+      - {x: 0.40625, y: 0.0234375}
+      - {x: 0.390625, y: 0.0546875}
   m_UseDelaunayMesh: 0
 --- !u!50 &-8989870912756396656
 Rigidbody2D:

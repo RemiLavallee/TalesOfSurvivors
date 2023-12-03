@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84dfdebc7747a0f479ab115153277054, type: 3}
-  m_Name: MainAttack
+  m_Name: KunaiAttack
   m_EditorClassIdentifier: 
-  prefab: {fileID: 2182861352958708135, guid: ce831dee6c77aea489d932b7c8e02fea, type: 3}
-  damage: 100
+  prefab: {fileID: 2182861352958708135, guid: 99acfac6e46e76d4d9d408e8a4e02f6c, type: 3}
+  damage: 60
   speed: 0
   cooldownDuration: 0
   level: 1

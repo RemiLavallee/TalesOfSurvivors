@@ -31,6 +31,9 @@ public class Lobby : MonoBehaviour
     public GameObject currentLevelImage;
     private int currentLevelIndex = 0;
     public List<string> levelSceneNames;
+    public List<GameObject> playerImage;
+    public GameObject currentPlayerImage;
+    private int currentPlayerIndex = 0;
     
 
     [Serializable]
@@ -324,5 +327,35 @@ public class Lobby : MonoBehaviour
     public void ChangeUsername()
     {
         usernameUI.SetActive(true);
+    }
+    
+    public void NextPlayer()
+    {
+        onClick.Play();
+        
+        if (currentPlayerIndex < playerImage.Count - 1)
+        {
+            currentPlayerIndex++;
+            UpdatePlayer();
+        }
+    }
+
+    public void PreviousPlayer()
+    {
+        onClick.Play();
+        
+        if (currentPlayerIndex > 0)
+        {
+            currentPlayerIndex--;
+            UpdatePlayer();
+        }
+    }
+    
+    private void UpdatePlayer()
+    {
+        for (var i = 0; i < playerImage.Count; i++)
+        {
+            playerImage[i].SetActive(i == currentPlayerIndex);
+        }
     }
 }

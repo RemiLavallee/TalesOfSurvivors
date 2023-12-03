@@ -3526,9 +3526,9 @@ GameObject:
   - component: {fileID: 558564079}
   - component: {fileID: 558564078}
   - component: {fileID: 558564083}
+  - component: {fileID: 558564087}
   - component: {fileID: 558564084}
   - component: {fileID: 558564085}
-  - component: {fileID: 558564087}
   - component: {fileID: 558564088}
   m_Layer: 8
   m_Name: Player
@@ -3725,7 +3725,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec79083d56f8c2041b3d1ed996f07359, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainAttackPrefab: {fileID: 2182861352958708135, guid: ce831dee6c77aea489d932b7c8e02fea, type: 3}
   player: {fileID: 558564078}
   healthBar: {fileID: 99429477}
   maxHealth: 500
