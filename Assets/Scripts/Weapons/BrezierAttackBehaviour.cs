@@ -5,7 +5,6 @@ public class BrezierAttackBehaviour : MonoBehaviour
 {
     private LineRenderer lineRenderer;
     [SerializeField] private int segments = 5;
-    private Vector3 lastMousePosition;
     [SerializeField] private Transform point0, point1, point2, point3;
     [SerializeField] private int numPoints = 12;
     private bool isBezierMode = true;
@@ -18,6 +17,10 @@ public class BrezierAttackBehaviour : MonoBehaviour
     [SerializeField] private SkillScriptableObject weaponData;
     [SerializeField] private float destroyDelay;
     private float currentDamage;
+    private Vector3 lastMousePosition;
+    private bool updateControlPoints = true;
+    private Vector3 lastPoint1Position;
+    private Vector3 lastPoint2Position;
 
     private void Start()
     {
@@ -34,19 +37,37 @@ public class BrezierAttackBehaviour : MonoBehaviour
         mousePos.z = 10f;
         var worldPosition = Camera.main.ScreenToWorldPoint(mousePos);
 
+        if (updateControlPoints)
+        {
+            lastMousePosition = worldPosition;
+            lastPoint1Position = worldPosition + offsetPoint1;
+            lastPoint2Position = worldPosition + offsetPoint2;
+        }
+
         lineRenderer.SetPosition(0, transform.position);
-        lineRenderer.SetPosition(1, worldPosition);
+
+        if (coroutineAllowed)
+        {
+            lineRenderer.SetPosition(1, worldPosition);
+            updateControlPoints = true;
+        }
+        else
+        {
+            lineRenderer.SetPosition(1, lastMousePosition);
+            updateControlPoints = false;
+            point1.position = lastPoint1Position;
+            point2.position = lastPoint2Position;
+        }
+
 
         if (Input.GetKeyDown(KeyCode.Z)) isBezierMode = true;
         if (Input.GetKeyDown(KeyCode.X)) isBezierMode = false;
-        
+
 
         if (isBezierMode)
         {
             point0.position = player.position;
-            point3.position = worldPosition;
-            point1.position = worldPosition + offsetPoint1;
-            point2.position = worldPosition + offsetPoint2;
+            point3.position = coroutineAllowed ? worldPosition : lastMousePosition;
 
             DrawBezierCurve();
         }
@@ -54,7 +75,7 @@ public class BrezierAttackBehaviour : MonoBehaviour
 
         if (coroutineAllowed)
             StartCoroutine(FollowBezierCurve());
-        
+
         Destroy(gameObject, destroyDelay);
     }
 
@@ -101,7 +122,7 @@ public class BrezierAttackBehaviour : MonoBehaviour
         tParam = 0f;
         coroutineAllowed = true;
     }
-    
+
     protected void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy"))
