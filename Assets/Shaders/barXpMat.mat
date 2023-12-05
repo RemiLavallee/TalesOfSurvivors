@@ -54,8 +54,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _UnscaledTime: 15.518463
+    - _UnscaledTime: 213.14864
     - _Value: 0
-    - _isActive: 0
+    - _isActive: 1
     m_Colors: []
   m_BuildTextureStacks: []

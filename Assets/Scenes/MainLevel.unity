@@ -3729,6 +3729,7 @@ MonoBehaviour:
   healthBar: {fileID: 99429477}
   maxHealth: 500
   currentHealth: 500
+  characterData: {fileID: 11400000, guid: 30ff7e7725f47fb4d916664daf772feb, type: 2}
   experience: 0
   level: 1
   experienceCap: 0

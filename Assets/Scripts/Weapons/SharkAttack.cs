@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public class SharkAttack : WeaponController
 {
     protected override void Attack()

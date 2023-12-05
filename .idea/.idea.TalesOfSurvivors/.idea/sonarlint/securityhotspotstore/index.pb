@@ -123,3 +123,9 @@ b
 2Assets/Scripts/Player/CharacterScriptableObject.cs,f\6\f6e2fb76f56f93c7d1c9f499a561b0389834ea0c
 Z
 *Assets/Scripts/Scenes/CharacterSelector.cs,b\8\b8a2636676b04de024d45280599e52b8a064c2df
+W
+'Assets/Scripts/Weapons/BrezierAttack.cs,0\8\08bb9135b88e28d39900189d19459c2ea565fa18
+\
+,Assets/Scripts/Weapons/BrezierAttackRoute.cs,6\f\6f571af724ae7109c935b3fb12997323d3a39487
+`
+0Assets/Scripts/Weapons/BrezierAttackBehaviour.cs,1\6\161ea685e440e537a732bc5b2992e534f6576441
