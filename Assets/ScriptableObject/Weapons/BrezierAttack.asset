@@ -18,6 +18,6 @@ MonoBehaviour:
   cooldownDuration: 5
   level: 1
   nextLevelPrefab: {fileID: 0}
-  name: Brezier Attack
-  description: Pong
-  image: {fileID: 0}
+  name: Ice Ball
+  description: ice ball attack
+  image: {fileID: 2138113623, guid: 5f63ea3721042b14db10d25b5b21bb16, type: 3}

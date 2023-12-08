@@ -129,3 +129,5 @@ W
 ,Assets/Scripts/Weapons/BrezierAttackRoute.cs,6\f\6f571af724ae7109c935b3fb12997323d3a39487
 `
 0Assets/Scripts/Weapons/BrezierAttackBehaviour.cs,1\6\161ea685e440e537a732bc5b2992e534f6576441
+S
+#Assets/Scripts/Collectibles/Food.cs,b\1\b18db17f10956bdef3e9de8ea6f8e087e1dc1598

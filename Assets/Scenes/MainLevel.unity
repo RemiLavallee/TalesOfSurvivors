@@ -3795,10 +3795,11 @@ MonoBehaviour:
   weaponSlots:
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
   passiveItemsSlots:
   - {fileID: 0}
   - {fileID: 0}
-  weaponLevels: 0000000000000000
+  weaponLevels: 000000000000000000000000
   passiveItemLevels: 0000000000000000
   weaponUpgradeOptions:
   - weaponUpgradeIndex: 0
@@ -3807,6 +3808,9 @@ MonoBehaviour:
   - weaponUpgradeIndex: 1
     initialWeapon: {fileID: 3925434068071814474, guid: 5fd90b9ffebf4e74182c1f6bf0731b56, type: 3}
     weaponData: {fileID: 11400000, guid: 606b46f688e420344884a20bda2112fc, type: 2}
+  - weaponUpgradeIndex: 2
+    initialWeapon: {fileID: 3925434068071814474, guid: f6633b90cd420844793054c029cb46bc, type: 3}
+    weaponData: {fileID: 11400000, guid: b5deb4bdaa566ca4299d9db60f012c10, type: 2}
   passiveUpgradeOptions:
   - passiveItemUpgradeIndex: 0
     initialPassiveItem: {fileID: 4766779042613952585, guid: 5302b58d52d7f0947975a7585dd75e04, type: 3}
