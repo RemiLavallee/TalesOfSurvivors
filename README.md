@@ -22,7 +22,7 @@ Rémi Lavallée
 6) Compléter (Ice ball attack, n'est pas terminé à 100% mais la base est là)
 7) Compléter (Pool object sur les ennemis)
 
-Lien itch.io : 
+Lien itch.io : https://flexgoku.itch.io/tales-of-survivors
 
 Le système de spawn pour le niveau 3 n'est pas encore adapté.
 
