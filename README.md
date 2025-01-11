@@ -1,30 +1,49 @@
-# TalesOfSurvivors
-Project_Midterm
-Rémi Lavallée
+<h1 align="center">Tales of survivors</h1>
 
-1)	Compléter
-2)	Compléter
-3)	Compléter
-4)	Compléter
-5)	Compléter
-6)	Compléter
-7)	Compléter
-8)	Compléter
-9)	Compléter
+<div align="center">
+  <img src="https://img.shields.io/badge/Unity-gray?style=flat&logo=unity&logoColor=white" alt="Unity Badge"/>
+  <img src="https://img.shields.io/badge/C%23-green?style=flat&logo=csharp&logoColor=white" alt="C# Badge"/>
+</div>
 
-*** Final exam ***
+<h2 align="center">Notes : 100%</h2>
 
-1) Compléter (changer de personnage avec les flèches dans le lobby)
-2) Compléter (Les informations sur sur le panel de victoire à la fin de la partie)
-3) Compléter
-4) Compléter (chromatic + vignette)
-5) Compléter (Hit sur les ennemis et la bar d'expérience)
-6) Compléter (Ice ball attack, n'est pas terminé à 100% mais la base est là)
-7) Compléter (Pool object sur les ennemis)
+<h2 align="center">Description</h2>
 
-Lien itch.io : https://flexgoku.itch.io/tales-of-survivors
+<p align="center">
+Un jeu basé sur le concept de Vampire survivors. Le but du joueur est de terminer un niveau à l’aide de plusieurs attaques accumulées au long de sa partie afin d’accumuler de l’argent pour améliorer ses statistiques pour la prochaine partie.
+</p>
 
-Le système de spawn pour le niveau 3 n'est pas encore adapté.
+<h2 align="center">Éléments techniques du projet</h2>
 
-J’ai suivi cette série de vidéo pour faire quelque système, tels que le spawn des ennemis et la génération de la map : Creating a Rogue-like (like Vampire Survivors) in Unity — Part 1: Movement and Camera - YouTube
+<div align="center">
+<li><img src="https://img.shields.io/badge/Organisation_Projet-blue?style=flat&labelColor=blue&color=blue" alt="Organisation Projet Badge"/> Organisation d’un projet de manière efficace pour garantir la maintenabilité du code.</li>
+<li><img src="https://img.shields.io/badge/Audio_Manager-lightblue?style=flat&labelColor=lightblue&color=lightblue" alt="Audio Manager Badge"/> Utilisation d’un Audio Manager pour centraliser la gestion des sons et de la musique.</li>
+<li><img src="https://img.shields.io/badge/Prefabs-green?style=flat&labelColor=green&color=green" alt="Prefabs Badge"/> Utilisation des prefabs pour créer des objets réutilisables et dynamiques.</li>
+<li><img src="https://img.shields.io/badge/Particles-orange?style=flat&labelColor=orange&color=orange" alt="Particles Badge"/> Utilisation des systèmes de particules pour ajouter des effets visuels au jeu.</li>
+<li><img src="https://img.shields.io/badge/Animation-red?style=flat&labelColor=red&color=red" alt="Animation Badge"/> Gestion et création d’animations pour les objets et les personnages du jeu.</li>
+<li><img src="https://img.shields.io/badge/Coroutine-yellow?style=flat&labelColor=yellow&color=yellow" alt="Coroutine Badge"/> Utilisation des coroutines pour exécuter des tâches asynchrones ou retardées.</li>
+<li><img src="https://img.shields.io/badge/PlayerPrefs-gray?style=flat&labelColor=gray&color=gray" alt="PlayerPrefs Badge"/> Implémentation de PlayerPrefs pour la sauvegarde des données du joueur.</li>
+<li><img src="https://img.shields.io/badge/Post_Processing-pink?style=flat&labelColor=pink&color=pink" alt="Post Processing Badge"/> Utilisation de post-processing pour améliorer les effets visuels du jeu.</li>
+<li><img src="https://img.shields.io/badge/Tilemap-yellowgreen?style=flat&labelColor=yellowgreen&color=yellowgreen" alt="Tilemap Badge"/> Utilisation de Tilemap pour créer des niveaux dynamiques et modifiables.</li>
+<li><img src="https://img.shields.io/badge/Object_Pooling-brown?style=flat&labelColor=brown&color=brown" alt="Object Pooling Badge"/> Implémentation d’un système d’object pooling pour optimiser la gestion des objets récurrents.</li>
+<li><img src="https://img.shields.io/badge/Scriptable_Object-purple?style=flat&labelColor=purple&color=purple" alt="Scriptable Object Badge"/> Implémentation de Scriptable Object pour gérer les données du jeu de manière flexible et modulaire.</li>
+</div>
 
+<h2 align="center">Contrôles</h2>
+
+<div align="center">
+
+| **Action**             | **Touche**           |
+|------------------------|----------------------|
+| **Move**               | W / A / S / D        |
+| **Interact**           | Left click           |
+
+</div>
+
+<h2 align="center">Crédits</h2>
+
+<div align="center">
+<li>Système de base : https://www.youtube.com/watch?v=EIJk5KYzSJM&list=PLgXA5L5ma2Bveih0btJV58REE2mzfQLOQ.
+<li>Assets : https://www.spriters-resource.com/pc_computer/maplestory/.
+<li>Audio : Youtube sounds effect.
+</div>
