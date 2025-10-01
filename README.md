@@ -18,10 +18,10 @@ Un jeu de survie à la Vampire Survivors avec un système similaire pour la gest
 <div align="center">
 Organisation d’un projet de manière efficace pour garantir la maintenabilité du code.<br>
 Utilisation d’un Audio Manager pour centraliser la gestion des sons et de la musique.<br>
-Utilisation des prefabs pour créer des objets réutilisables et dynamiques.<br>
+Utilisation des prefabs pour créer des objets réutilisables.<br>
 Utilisation des systèmes de particules pour ajouter des effets visuels au jeu.<br>
 Gestion et création d’animations pour les objets et les personnages du jeu.<br>
-Utilisation des coroutines pour exécuter des tâches asynchrones ou retardées.<br>
+Utilisation des coroutines pour exécuter des tâches asynchrones.<br>
 Implémentation de PlayerPrefs pour la sauvegarde des données du joueur.<br>
 Utilisation de post-processing pour améliorer les effets visuels du jeu.<br>
 Utilisation de Tilemap pour créer des niveaux dynamiques et modifiables.<br>
@@ -45,5 +45,5 @@ Implémentation de Scriptable Object pour gérer les données du jeu de manière
 <div align="center">
 Système de base : https://www.youtube.com/watch?v=EIJk5KYzSJM&list=PLgXA5L5ma2Bveih0btJV58REE2mzfQLOQ.<br>
 Assets : https://www.spriters-resource.com/pc_computer/maplestory/.<br>
-Audio : Youtube sounds effect.<br>
+Audio : Youtube sounds effect.
 </div>
